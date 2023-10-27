@@ -1,7 +1,7 @@
 <?php
 
-$email = trim($_POST["email"]);
-$password = trim($_POST["password"]);
+$email = trim(htmlspecialchars($_POST["email"]));
+$password = trim(htmlspecialchars($_POST["password"]));
 $pagina = htmlspecialchars($_GET["ori"]);
 
 if($email==$password)

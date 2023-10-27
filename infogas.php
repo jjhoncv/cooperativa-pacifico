@@ -6,14 +6,14 @@ include_once 'apipersonas_infogas.php';
 	$api = new ApiPersonas();
 	$new = new CurlRequest();
 
-    $dni = $_POST["dni"];
-    $celular = $_POST["celular"];
-    $sueldo = $_POST["sueldo"];
-    $placa = $_POST["placa"];
-    $utm_source = $_POST["utm_source"];
+    $dni = htmlspecialchars($_POST["dni"]);
+    $celular = htmlspecialchars($_POST["celular"]);
+    $sueldo = htmlspecialchars($_POST["sueldo"]);
+    $placa = htmlspecialchars($_POST["placa"]);
+    $utm_source = htmlspecialchars($_POST["utm_source"]);
 	
-	$taxista = $_POST["taxista"];
-	$gnv = $_POST["gnv"];
+	$taxista = htmlspecialchars($_POST["taxista"]);
+	$gnv = htmlspecialchars($_POST["gnv"]);
 		
 	
     $saldo_pagar = 0;

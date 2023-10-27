@@ -5,7 +5,7 @@ include_once 'apipersonas.php';
 
 	$api = new ApiPersonas();
 
-    //$nombre = $_POST["nombre"];
+    //$nombre = htmlspecialchars($_POST["nombre"]);
     $dni = htmlspecialchars($_REQUEST["dni"]);
     $celular = htmlspecialchars($_REQUEST["celular"]);
     $correo = htmlspecialchars($_REQUEST["correo"]);

@@ -2,8 +2,8 @@
 include_once 'mini_test.php';
 $new = new CurlRequest();
 	
-$email = $_POST["email"];
-$password = $_POST["password"];
+$email = htmlspecialchars($_POST["email"]);
+$password = htmlspecialchars($_POST["password"]);
 
 $pagina = htmlspecialchars($_GET["pagina"]);
 

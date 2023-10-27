@@ -5,11 +5,11 @@ include_once 'apipersonas.php';
 
 	$api = new ApiPersonas();
 
-    $dni = $_POST["dni"];
-    $celular = $_POST["celular"];
-    $correo = $_POST["correo"];
-	$socio = $_POST["socio"];
-	$utm = $_POST["utm_source"];
+    $dni = htmlspecialchars($_POST["dni"]);
+    $celular = htmlspecialchars($_POST["celular"]);
+    $correo = htmlspecialchars($_POST["correo"]);
+	$socio = htmlspecialchars($_POST["socio"]);
+	$utm = htmlspecialchars($_POST["utm_source"]);
 
     $saldo_pagar = 0;
     $encontrado = "V";

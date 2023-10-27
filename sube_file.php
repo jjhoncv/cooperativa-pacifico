@@ -10,7 +10,7 @@ $mensaje ="";
 
 $pos = strpos($subir_archivo, "/");
 $nom_arch = substr($subir_archivo, $pos+1);
-$dni = $_POST['dni'];
+$dni = htmlspecialchars($_POST['dni']);
 
 if($subir_archivo!="archivos/")
 {

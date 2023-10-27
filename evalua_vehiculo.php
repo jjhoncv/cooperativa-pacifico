@@ -4,16 +4,16 @@ include_once 'apipersonas.php';
     
     $api = new ApiPersonas();
 
-    $importe_solicitado = $_POST["importe"];
-    $nombre = $_POST["nombre"];
-    $dni = $_POST["dni"];
-    $celular = $_POST["celular"];
-    $correo = $_POST["correo"];
-    $sueldo = $_POST["sueldo"];
-    $utm_source = $_POST["utm_source"];
-	$lima = $_POST["lima"];
-	$quintacategoria = $_POST["quintacategoria"];
-	$cuota = $_POST["cuota"];
+    $importe_solicitado = htmlspecialchars($_POST["importe"]);
+    $nombre = htmlspecialchars($_POST["nombre"]);
+    $dni = htmlspecialchars($_POST["dni"]);
+    $celular = htmlspecialchars($_POST["celular"]);
+    $correo = htmlspecialchars($_POST["correo"]);
+    $sueldo = htmlspecialchars($_POST["sueldo"]);
+    $utm_source = htmlspecialchars($_POST["utm_source"]);
+	$lima = htmlspecialchars($_POST["lima"]);
+	$quintacategoria = htmlspecialchars($_POST["quintacategoria"]);
+	$cuota = htmlspecialchars($_POST["cuota"]);
 
     $tipo = "D";
     /*

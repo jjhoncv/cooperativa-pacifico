@@ -1,7 +1,7 @@
 <?php
 
-$email = $_POST["email"];
-$password = $_POST["password"];
+$email = htmlspecialchars($_POST["email"]);
+$password = htmlspecialchars($_POST["password"]);
 
 if($email==$password)
 {

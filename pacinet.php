@@ -12,7 +12,7 @@ $new = new CurlRequest();
 //1 = código de socio 0 = DNI
 
 
-$doi = $_POST["doi"];
+$doi = htmlspecialchars($_POST["doi"]);
 if(strlen($doi)==8)
     $tipo = 0;
 else

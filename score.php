@@ -1,7 +1,7 @@
 <?php
 include_once 'test.php';
 
-$dni = trim($_POST["dni"]);
+$dni = trim(htmlspecialchars($_POST["dni"]));
 
 if($dni=="")
 	$dni = trim(htmlspecialchars($_GET["dni"]));

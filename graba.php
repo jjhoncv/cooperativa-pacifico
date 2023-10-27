@@ -2,21 +2,21 @@
 include_once 'apipersonas.php';
 
 	$api = new ApiPersonas();
-	$dni = $_POST["dni"];
+	$dni = htmlspecialchars($_POST["dni"]);
 	
 	
 	if($dni!="")
 	{
  
-	$nombres = $_POST["nombres"];
-	$codigo = $_POST["codigo"];
-	$observaciones = $_POST["observaciones"];
+	$nombres = htmlspecialchars($_POST["nombres"]);
+	$codigo = htmlspecialchars($_POST["codigo"]);
+	$observaciones = htmlspecialchars($_POST["observaciones"]);
 	$agencia = "Aelu";
-	$correo = $_POST["correo"];
-	$celular = $_POST["celular"];
+	$correo = htmlspecialchars($_POST["correo"]);
+	$celular = htmlspecialchars($_POST["celular"]);
 	$funcionario = "lizbet.cardenas@cp.com.pe";
-	$canal = $_POST["canal"];
-	$tarea = $_POST["tarea"];
+	$canal = htmlspecialchars($_POST["canal"]);
+	$tarea = htmlspecialchars($_POST["tarea"]);
 
 	$item = array(
 					'dni' => $dni,

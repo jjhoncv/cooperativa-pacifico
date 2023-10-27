@@ -4,8 +4,8 @@ include_once 'test.php';
 $new = new CurlRequest();
 
 $token = htmlspecialchars($_GET["token"]);
-$correo = $_POST["correo"];
-$clave1 = $_POST["clave1"];
+$correo = htmlspecialchars($_POST["correo"]);
+$clave1 = htmlspecialchars($_POST["clave1"]);
 $msg = "";
 
 if($token!=""){

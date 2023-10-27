@@ -4,18 +4,18 @@ $api = new ApiPersonas();
 
 $funcionario = "";
 
-$utm_source = $_POST["utm_source"];
-$nombres = $_POST["nombre"];
-$ruc = $_POST["ruc"];
-$celular = $_POST["celular"];
-$correo = $_POST["correo"];
+$utm_source = htmlspecialchars($_POST["utm_source"]);
+$nombres = htmlspecialchars($_POST["nombre"]);
+$ruc = htmlspecialchars($_POST["ruc"]);
+$celular = htmlspecialchars($_POST["celular"]);
+$correo = htmlspecialchars($_POST["correo"]);
 
-$cts = ($_POST["cts"])? "on" : "off";
-$descuento_pla = ($_POST["descuento_pla"])? "on" : "off";
-$ahorro = ($_POST["ahorro"])? "on" : "off";
-$pfijo = ($_POST["pfijo"])? "on" : "off";
-$capital = ($_POST["capital"])? "on" : "off";
-$descuento_doc = ($_POST["descuento_doc"])? "on" : "off";
+$cts = (htmlspecialchars($_POST["cts"]))? "on" : "off";
+$descuento_pla = (htmlspecialchars($_POST["descuento_pla"]))? "on" : "off";
+$ahorro = (htmlspecialchars($_POST["ahorro"]))? "on" : "off";
+$pfijo = (htmlspecialchars($_POST["pfijo"]))? "on" : "off";
+$capital = (htmlspecialchars($_POST["capital"]))? "on" : "off";
+$descuento_doc = (htmlspecialchars($_POST["descuento_doc"]))? "on" : "off";
 
 if($cts=="on"){
 	$funcionario = "alicia.teruya@cp.com.pe";

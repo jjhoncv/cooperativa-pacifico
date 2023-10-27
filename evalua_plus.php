@@ -1,7 +1,7 @@
 <?php
-	$dni = $_POST["dni"];
-	$sueldo = $_POST["sueldo"];
-	$quinta = $_POST["quinta"];
+	$dni = htmlspecialchars($_POST["dni"]);
+	$sueldo = htmlspecialchars($_POST["sueldo"]);
+	$quinta = htmlspecialchars($_POST["quinta"]);
 	
 	if($dni!="")
 	{

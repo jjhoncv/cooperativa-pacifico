@@ -5,8 +5,8 @@ include_once 'test.php';
 $new = new CurlRequest();
 
 $mensaje = "";
-//$celular = $_POST['celular'];
-//$mensaje = $_POST['mensaje'];
+//$celular = htmlspecialchars($_POST['celular']);
+//$mensaje = htmlspecialchars($_POST['mensaje']);
 
 $celular = "51997855645";
 $mensaje = "Hola mundo";

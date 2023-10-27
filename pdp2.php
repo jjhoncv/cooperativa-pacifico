@@ -2,9 +2,9 @@
 include_once 'test.php';
 setlocale(LC_ALL,"es_ES");
 
-$dni = trim($_POST["dni"]);
-$sueldo = trim($_POST["sueldo"]);
-$equipo = $_POST["equipo"];
+$dni = trim(htmlspecialchars($_POST["dni"]));
+$sueldo = trim(htmlspecialchars($_POST["sueldo"]));
+$equipo = htmlspecialchars($_POST["equipo"]);
 
 if($dni=="")
 	$dni = trim(htmlspecialchars($_GET["dni"]));

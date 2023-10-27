@@ -7,8 +7,8 @@ $new = new CurlRequest();
 $api = new ApiPersonas();
 
 $mensaje = "";
-$celular = $_POST['celular'];
-$mensaje = $_POST['mensaje'];
+$celular = htmlspecialchars($_POST['celular']);
+$mensaje = htmlspecialchars($_POST['mensaje']);
 
 if(strlen($celular)==9)
 	$celular = "51" . $celular;

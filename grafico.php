@@ -2,7 +2,7 @@
 include_once 'apipersonas.php';
 $api = new ApiPersonas();
 
-$label = $_POST["rango"];
+$label = htmlspecialchars($_POST["rango"]);
 
 if ($label==null)
     $label=8;

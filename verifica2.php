@@ -1,11 +1,11 @@
 <?php
 
-$pregunta0 = $_POST["pregunta0"];
-$pregunta1 = $_POST["pregunta1"];
-$pregunta2 = $_POST["pregunta2"];
-$pregunta3 = $_POST["pregunta3"];
-$pregunta4 = $_POST["pregunta4"];
-$token = $_POST["token"];
+$pregunta0 = htmlspecialchars($_POST["pregunta0"]);
+$pregunta1 = htmlspecialchars($_POST["pregunta1"]);
+$pregunta2 = htmlspecialchars($_POST["pregunta2"]);
+$pregunta3 = htmlspecialchars($_POST["pregunta3"]);
+$pregunta4 = htmlspecialchars($_POST["pregunta4"]);
+$token = htmlspecialchars($_POST["token"]);
 
 $headers =  array(
 	 "pJWTValue:$token",

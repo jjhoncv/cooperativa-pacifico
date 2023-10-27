@@ -5,7 +5,7 @@ include_once '../test.php';
 $new = new CurlRequest();
 
 	$accion = htmlspecialchars($_GET["accion"]);
-	$func = $_POST["func"];
+	$func = htmlspecialchars($_POST["func"]);
 	
 	$msg = "";
 	
@@ -21,7 +21,7 @@ $new = new CurlRequest();
 	
 if($func==1){
 
-	$correo1 = $_POST["correo"];
+	$correo1 = htmlspecialchars($_POST["correo"]);
 	$pos = strpos($correo1, "@");
 	$dominio = strtolower(substr($correo1, $pos+1));
 	$etiqueta = "Alta de usuario";
@@ -54,7 +54,7 @@ if($func==1){
 
 if($func==2){
 	
-	$correo1 = $_POST["correo"];
+	$correo1 = htmlspecialchars($_POST["correo"]);
 	$pos = strpos($correo1, "@");
 	$dominio = strtolower(substr($correo1, $pos+1));
 	$etiqueta = "Olvido de clave";

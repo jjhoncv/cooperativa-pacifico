@@ -5,14 +5,14 @@ include_once 'apipersonas.php';
 
 	$api = new ApiPersonas();
 
-    $nombre = $_POST["nombre"];
-    $dni = $_POST["dni"];
-    $celular = $_POST["celular"];
-    $correo = $_POST["correo"];
-    $sueldo = $_POST["sueldo"];
-    $utm_source = $_POST["utm_source"];
-	$lima = $_POST["lima"];
-	$quintacategoria = $_POST["quintacategoria"];
+    $nombre = htmlspecialchars($_POST["nombre"]);
+    $dni = htmlspecialchars($_POST["dni"]);
+    $celular = htmlspecialchars($_POST["celular"]);
+    $correo = htmlspecialchars($_POST["correo"]);
+    $sueldo = htmlspecialchars($_POST["sueldo"]);
+    $utm_source = htmlspecialchars($_POST["utm_source"]);
+	$lima = htmlspecialchars($_POST["lima"]);
+	$quintacategoria = htmlspecialchars($_POST["quintacategoria"]);
 
     $saldo_pagar = 0;
     $encontrado = "V";
