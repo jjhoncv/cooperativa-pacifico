@@ -5,14 +5,14 @@ include_once 'apipersonas_pdp.php';
 
 	$api = new ApiPersonas();
 
-    $dni = $_REQUEST["dni"];
-    $celular = $_REQUEST["celular"];
-    $sueldo = $_REQUEST["sueldo"];
-    $correo = $_REQUEST["correo"];
+    $dni = htmlspecialchars($_REQUEST["dni"]);
+    $celular = htmlspecialchars($_REQUEST["celular"]);
+    $sueldo = htmlspecialchars($_REQUEST["sueldo"]);
+    $correo = htmlspecialchars($_REQUEST["correo"]);
 	
     $utm_source = "organico";
 	
-	$funcionario = $_REQUEST["funcionario"];
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
 
     $saldo_pagar = 0;
     $encontrado = "V";

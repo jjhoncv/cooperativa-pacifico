@@ -2,12 +2,12 @@
 include_once 'apipersonas_cobranza.php';
 $api = new ApiPersonas();
 
-$func = $_REQUEST["func"];
+$func = htmlspecialchars($_REQUEST["func"]);
 
 
 if($func==1){
-	$id = $_REQUEST["id"];
-	$paso = $_REQUEST["paso"];
+	$id = htmlspecialchars($_REQUEST["id"]);
+	$paso = htmlspecialchars($_REQUEST["paso"]);
 	$api->actualiza_paso_infogas($id, $paso);
 	
 	exit();
@@ -16,8 +16,8 @@ if($func==1){
 
 if($func==2){
 
-	$id = $_REQUEST["id"];
-	$obs = $_REQUEST["obs"];
+	$id = htmlspecialchars($_REQUEST["id"]);
+	$obs = htmlspecialchars($_REQUEST["obs"]);
 	
 	if($id!=""){
 		$api->actualiza_observacion_cobranza($id, $obs);
@@ -29,11 +29,11 @@ if($func==2){
 
 if($func==3){
 
-	$celular = $_REQUEST["celular"];
-	$nombre = $_REQUEST["nombre"];
-	$tipo = $_REQUEST["tipo"];
-	$dias = $_REQUEST["dias"];
-	$monto = $_REQUEST["monto"];
+	$celular = htmlspecialchars($_REQUEST["celular"]);
+	$nombre = htmlspecialchars($_REQUEST["nombre"]);
+	$tipo = htmlspecialchars($_REQUEST["tipo"]);
+	$dias = htmlspecialchars($_REQUEST["dias"]);
+	$monto = htmlspecialchars($_REQUEST["monto"]);
 	
 	$celular = "51997855645";
 
@@ -54,9 +54,9 @@ if($func==3){
 
 if($func==4){
 	
-    $xiomi = $_REQUEST["xiomi"];
-    $kaori = $_REQUEST["kaori"];
-	$johann = $_REQUEST["johann"];
+    $xiomi = htmlspecialchars($_REQUEST["xiomi"]);
+    $kaori = htmlspecialchars($_REQUEST["kaori"]);
+	$johann = htmlspecialchars($_REQUEST["johann"]);
 		
 	$api->actualiza_funcionario_micro($xiomi, $kaori, $johann);
 	exit();	

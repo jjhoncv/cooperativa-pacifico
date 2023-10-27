@@ -4,18 +4,18 @@ include_once 'apipersonas.php';
 
 	$api = new ApiPersonas();
  
-    $dni = $_REQUEST["dni"];
-    $nombres = $_REQUEST["nombres"];
+    $dni = htmlspecialchars($_REQUEST["dni"]);
+    $nombres = htmlspecialchars($_REQUEST["nombres"]);
 	$nombres = strtoupper($nombres);
-    $codigo = $_REQUEST["codigo"];
+    $codigo = htmlspecialchars($_REQUEST["codigo"]);
 	$codigo = str_pad($codigo, 7, "0", STR_PAD_LEFT);
-	$agencia = $_REQUEST["agencia"];
-    $correo = $_REQUEST["correo"];
-	$celular = $_REQUEST["celular"];
-	$observaciones = $_REQUEST["observaciones"];
-	$funcionario = $_REQUEST["funcionario"];
-	$canal = $_REQUEST["canal"];
-	$tarea = $_REQUEST["tarea"];
+	$agencia = htmlspecialchars($_REQUEST["agencia"]);
+    $correo = htmlspecialchars($_REQUEST["correo"]);
+	$celular = htmlspecialchars($_REQUEST["celular"]);
+	$observaciones = htmlspecialchars($_REQUEST["observaciones"]);
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
+	$canal = htmlspecialchars($_REQUEST["canal"]);
+	$tarea = htmlspecialchars($_REQUEST["tarea"]);
 
 			$item = array(
 					'dni' => $dni,

@@ -4,12 +4,12 @@ include_once 'test.php';
 $new = new CurlRequest();
 
 
-$func = $_REQUEST["func"];
+$func = htmlspecialchars($_REQUEST["func"]);
 
 
-$doi = $_REQUEST["doi"];
-$tipo = $_REQUEST["tipo"];
-$correo = $_REQUEST["correo"];
+$doi = htmlspecialchars($_REQUEST["doi"]);
+$tipo = htmlspecialchars($_REQUEST["tipo"]);
+$correo = htmlspecialchars($_REQUEST["correo"]);
 
 if($doi!="" and $tipo!=""){
     $resultado = $new ->sendPatch_Pacinet($tipo, $doi);
@@ -19,7 +19,7 @@ if($doi!="" and $tipo!=""){
 
 if($func==1){
 	
-	$correo1 = $_REQUEST["correo"];
+	$correo1 = htmlspecialchars($_REQUEST["correo"]);
 	$pos = strpos($correo1, "@");
 	$dominio = strtolower(substr($correo1, $pos+1));
 
@@ -51,7 +51,7 @@ if($func==1){
 
 if($func==2){
 	
-	$correo1 = $_REQUEST["correo"];
+	$correo1 = htmlspecialchars($_REQUEST["correo"]);
 	$pos = strpos($correo1, "@");
 	$dominio = strtolower(substr($correo1, $pos+1));
 

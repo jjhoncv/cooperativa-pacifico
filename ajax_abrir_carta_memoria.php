@@ -3,11 +3,11 @@ include_once 'api_doble.php';
 $api = new ApiPersonas();
 
 $session = htmlspecialchars($_REQUEST["session"]);
-$func = $_REQUEST["func"];
+$func = htmlspecialchars($_REQUEST["func"]);
 
 
 if($session!="" and $func==1){ // utilizado
-   $equipo = $_REQUEST["equipo"];
+   $equipo = htmlspecialchars($_REQUEST["equipo"]);
    $api->abrir_carta_memoria_api($session, $equipo);
 }
 
@@ -26,16 +26,16 @@ if($session!="" and $func==4){ // utilizado
 
 if($session!="" and $func==5){
 
-   $marca = $_REQUEST["marca"];
+   $marca = htmlspecialchars($_REQUEST["marca"]);
    $api->ver_ranking($marca);
 }
 
 if($func==6){
 
-   $marca = $_REQUEST["marca"];
-   $nombre = $_REQUEST["nombre"];
-   $dni = $_REQUEST["dni"];
-   $correo = $_REQUEST["correo"];
+   $marca = htmlspecialchars($_REQUEST["marca"]);
+   $nombre = htmlspecialchars($_REQUEST["nombre"]);
+   $dni = htmlspecialchars($_REQUEST["dni"]);
+   $correo = htmlspecialchars($_REQUEST["correo"]);
    
    $api->insertar_ranking_api($nombre, $dni, $correo, $marca);
 }

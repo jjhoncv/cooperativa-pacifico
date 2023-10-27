@@ -3,10 +3,10 @@ include_once 'test.php';
 $new = new CurlRequest();
 
 
-$celular = $_REQUEST["celular"];
-$nombre = $_REQUEST["nombre"];
-$tipo = $_REQUEST["tipo"];
-$funcionario = $_REQUEST["funcionario"];
+$celular = htmlspecialchars($_REQUEST["celular"]);
+$nombre = htmlspecialchars($_REQUEST["nombre"]);
+$tipo = htmlspecialchars($_REQUEST["tipo"]);
+$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
 
 $mensaje = "";
 

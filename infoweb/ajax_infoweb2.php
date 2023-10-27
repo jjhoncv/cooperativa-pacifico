@@ -7,24 +7,24 @@ $api = new ApiInfoweb();
 $persona = new Persona();
     
 
-$func = $_REQUEST["func"];
+$func = htmlspecialchars($_REQUEST["func"]);
 
 	if($func==1){
-	$dni = $_REQUEST["dni"];
+	$dni = htmlspecialchars($_REQUEST["dni"]);
 	$api->api_infoweb_1ra_llamada($dni);
 
 	}
 
 	if($func==2){
-	$token = $_REQUEST["token"];
-	$dni = $_REQUEST["dni"];
-	$Scoring = $_REQUEST["scoring"];
+	$token = htmlspecialchars($_REQUEST["token"]);
+	$dni = htmlspecialchars($_REQUEST["dni"]);
+	$Scoring = htmlspecialchars($_REQUEST["scoring"]);
 	$api->api_infoweb_2da_llamada($token, $dni, $Scoring);
 
 	}
 	
 	if($func==3){
-	$dni = $_REQUEST["dni"];
+	$dni = htmlspecialchars($_REQUEST["dni"]);
 	$colaborador="";
 	
 	$res = $persona->consulta_doi($dni);
@@ -579,7 +579,7 @@ $func = $_REQUEST["func"];
 	}
 	
 	if($func==4){
-	$dni = $_REQUEST["dni"];
+	$dni = htmlspecialchars($_REQUEST["dni"]);
 	$api->api_infoweb_3ra_llamada($dni);
 	}
 ?>

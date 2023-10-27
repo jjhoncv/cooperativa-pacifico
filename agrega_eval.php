@@ -6,14 +6,14 @@ include_once 'apipersonas.php';
 	$api = new ApiPersonas();
 
     //$nombre = $_POST["nombre"];
-    $dni = $_REQUEST["dni"];
-    $celular = $_REQUEST["celular"];
-    $correo = $_REQUEST["correo"];
-    $sueldo = $_REQUEST["sueldo"];
+    $dni = htmlspecialchars($_REQUEST["dni"]);
+    $celular = htmlspecialchars($_REQUEST["celular"]);
+    $correo = htmlspecialchars($_REQUEST["correo"]);
+    $sueldo = htmlspecialchars($_REQUEST["sueldo"]);
     $utm_source = "organico";
 	$lima = "Si";
 	$quintacategoria = "Si";
-	$funcionario = $_REQUEST["funcionario"];
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
 
     $saldo_pagar = 0;
     $encontrado = "V";

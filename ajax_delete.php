@@ -3,9 +3,9 @@ include_once 'test.php';
 $test = new CurlRequest();
 
 
-$id = $_REQUEST["id"];
-$detalle = $_REQUEST["detalle"];
-$accion = $_REQUEST["accion"];
+$id = htmlspecialchars($_REQUEST["id"]);
+$detalle = htmlspecialchars($_REQUEST["detalle"]);
+$accion = htmlspecialchars($_REQUEST["accion"]);
 
 if($id!="")
 {

@@ -5,16 +5,16 @@ include_once 'apipersonas_infogas.php';
 
 	$api = new ApiPersonas();
 
-    $dni = $_REQUEST["dni"];
-    $celular = $_REQUEST["celular"];
-    $sueldo = $_REQUEST["sueldo"];
-    $placa = $_REQUEST["placa"];
+    $dni = htmlspecialchars($_REQUEST["dni"]);
+    $celular = htmlspecialchars($_REQUEST["celular"]);
+    $sueldo = htmlspecialchars($_REQUEST["sueldo"]);
+    $placa = htmlspecialchars($_REQUEST["placa"]);
 	
     $utm_source = "organico";
 	$taxista = "Si";
 	$gnv = "Si";
 	
-	$funcionario = $_REQUEST["funcionario"];
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
 
     $saldo_pagar = 0;
     $encontrado = "V";

@@ -3,9 +3,9 @@
    $api = new ApiPersonas();
 
 
-$id = $_REQUEST["id"];
-$tabla = $_REQUEST["tabla"];
-$accion = $_REQUEST["accion"];
+$id = htmlspecialchars($_REQUEST["id"]);
+$tabla = htmlspecialchars($_REQUEST["tabla"]);
+$accion = htmlspecialchars($_REQUEST["accion"]);
 
 if($id!="")
 {

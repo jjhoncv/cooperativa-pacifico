@@ -2,12 +2,12 @@
 include_once 'apipersonas_pdp.php';
 $api = new ApiPersonas();
 
-$func = $_REQUEST["func"];
+$func = htmlspecialchars($_REQUEST["func"]);
 
 
 if($func==1){
-	$id = $_REQUEST["id"];
-	$paso = $_REQUEST["paso"];
+	$id = htmlspecialchars($_REQUEST["id"]);
+	$paso = htmlspecialchars($_REQUEST["paso"]);
 	$api->actualiza_paso_pdp($id, $paso);
 	
 	exit();
@@ -16,14 +16,14 @@ if($func==1){
 
 if($func==2){
 
-	$id = $_REQUEST["id"];
-	$obs = $_REQUEST["obs"];
-	$monto = $_REQUEST["monto"];
-	$paso = $_REQUEST["paso"];
-	$funcionario = $_REQUEST["funcionario"];
-	$fec_ingreso = $_REQUEST["fec_ingreso"];
-	$tipo = $_REQUEST["tipo"];
-	$convenio = $_REQUEST["convenio"];
+	$id = htmlspecialchars($_REQUEST["id"]);
+	$obs = htmlspecialchars($_REQUEST["obs"]);
+	$monto = htmlspecialchars($_REQUEST["monto"]);
+	$paso = htmlspecialchars($_REQUEST["paso"]);
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
+	$fec_ingreso = htmlspecialchars($_REQUEST["fec_ingreso"]);
+	$tipo = htmlspecialchars($_REQUEST["tipo"]);
+	$convenio = htmlspecialchars($_REQUEST["convenio"]);
 
 	if($id!=""){
 		$api->actualiza_observacion_pdp($id, $obs, $monto, $paso, $funcionario, $fec_ingreso, $tipo, $convenio);
@@ -35,10 +35,10 @@ if($func==2){
 
 if($func==3){
 
-	$celular = $_REQUEST["celular"];
-	$nombre = $_REQUEST["nombre"];
-	$tipo = $_REQUEST["tipo"];
-	$funcionario = $_REQUEST["funcionario"];
+	$celular = htmlspecialchars($_REQUEST["celular"]);
+	$nombre = htmlspecialchars($_REQUEST["nombre"]);
+	$tipo = htmlspecialchars($_REQUEST["tipo"]);
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
 
 	$mensaje = "";
 
@@ -59,9 +59,9 @@ if($func==3){
 
 if($func==4){
 	
-    $marco = $_REQUEST["marco"];
-    $alina = $_REQUEST["alina"];
-	$carlos = $_REQUEST["carlos"];
+    $marco = htmlspecialchars($_REQUEST["marco"]);
+    $alina = htmlspecialchars($_REQUEST["alina"]);
+	$carlos = htmlspecialchars($_REQUEST["carlos"]);
 		
 	$api->actualiza_funcionario_pdp($marco, $alina, $carlos);
 	exit();	

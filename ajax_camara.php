@@ -2,12 +2,12 @@
 include_once 'apipersonas_camara.php';
 $api = new ApiPersonas();
 
-$func = $_REQUEST["func"];
+$func = htmlspecialchars($_REQUEST["func"]);
 
 
 if($func==1){
-	$id = $_REQUEST["id"];
-	$paso = $_REQUEST["paso"];
+	$id = htmlspecialchars($_REQUEST["id"]);
+	$paso = htmlspecialchars($_REQUEST["paso"]);
 	$api->actualiza_paso_camara($id, $paso);
 	
 	exit();
@@ -16,12 +16,12 @@ if($func==1){
 
 if($func==2){
 
-	$id = $_REQUEST["id"];
-	$obs = $_REQUEST["obs"];
-	$paso = $_REQUEST["paso"];
-	$fec_ingreso = $_REQUEST["fec_ingreso"];
-	$funcionario = $_REQUEST["funcionario"];
-	$rechazo = $_REQUEST["rechazado"];
+	$id = htmlspecialchars($_REQUEST["id"]);
+	$obs = htmlspecialchars($_REQUEST["obs"]);
+	$paso = htmlspecialchars($_REQUEST["paso"]);
+	$fec_ingreso = htmlspecialchars($_REQUEST["fec_ingreso"]);
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
+	$rechazo = htmlspecialchars($_REQUEST["rechazado"]);
 
 	if($id!=""){
 		$api->actualiza_observacion_camara($id, $obs, $paso, $fec_ingreso, $funcionario, $rechazo);
@@ -33,8 +33,8 @@ if($func==2){
 
 if($func==3){
 
-	$celular = $_REQUEST["celular"];
-	$nombre = $_REQUEST["nombre"];
+	$celular = htmlspecialchars($_REQUEST["celular"]);
+	$nombre = htmlspecialchars($_REQUEST["nombre"]);
 
 	$resultado = $api ->envio_wsp($nombre, $celular);
 	
@@ -44,9 +44,9 @@ if($func==3){
 
 if($func==4){
 	
-    $xiomi = $_REQUEST["xiomi"];
-    $kaori = $_REQUEST["kaori"];
-	$johann = $_REQUEST["johann"];
+    $xiomi = htmlspecialchars($_REQUEST["xiomi"]);
+    $kaori = htmlspecialchars($_REQUEST["kaori"]);
+	$johann = htmlspecialchars($_REQUEST["johann"]);
 		
 	$api->actualiza_funcionario_micro($xiomi, $kaori, $johann);
 	exit();	

@@ -6,17 +6,17 @@ include_once 'test.php';
 	$api = new ApiPersonas();
 	$new = new CurlRequest();
  
-    $dni = $_REQUEST["dni"];
-    $nombres = $_REQUEST["nombres"];
+    $dni = htmlspecialchars($_REQUEST["dni"]);
+    $nombres = htmlspecialchars($_REQUEST["nombres"]);
 	$nombres = strtoupper($nombres);
-    $monto = $_REQUEST["monto"];
-	$cuotas = $_REQUEST["cuotas"];
-    $moneda = $_REQUEST["moneda"];
-	$fec_desembolso = $_REQUEST["fec_desembolso"];
-	$observaciones = $_REQUEST["observaciones"];
-	$origen = $_REQUEST["origen"];
-	$tipo = $_REQUEST["tipo"];
-	$urgente = $_REQUEST["urgente"];
+    $monto = htmlspecialchars($_REQUEST["monto"]);
+	$cuotas = htmlspecialchars($_REQUEST["cuotas"]);
+    $moneda = htmlspecialchars($_REQUEST["moneda"]);
+	$fec_desembolso = htmlspecialchars($_REQUEST["fec_desembolso"]);
+	$observaciones = htmlspecialchars($_REQUEST["observaciones"]);
+	$origen = htmlspecialchars($_REQUEST["origen"]);
+	$tipo = htmlspecialchars($_REQUEST["tipo"]);
+	$urgente = htmlspecialchars($_REQUEST["urgente"]);
 	
 	$api->tarjetasPendientes_sandbox_agencias('Gabriela'); 
 	$gabriela = $_SESSION["Gabriela"];

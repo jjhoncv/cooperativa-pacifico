@@ -7,12 +7,12 @@ include_once 'apipersonas.php';
 	
 
     //$nombre = $_POST["nombre"];
-    $dni = $_REQUEST["dni"];
-    $celular = $_REQUEST["celular"];
-    $correo = $_REQUEST["correo"];
-    $observaciones = $_REQUEST["observaciones"];
+    $dni = htmlspecialchars($_REQUEST["dni"]);
+    $celular = htmlspecialchars($_REQUEST["celular"]);
+    $correo = htmlspecialchars($_REQUEST["correo"]);
+    $observaciones = htmlspecialchars($_REQUEST["observaciones"]);
 //  $utm_source = "wsp2";
-	$funcionario = $_REQUEST["funcionario"];
+	$funcionario = htmlspecialchars($_REQUEST["funcionario"]);
 
     $saldo_pagar = 0;
     $encontrado = "V";
