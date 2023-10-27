@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Verifica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
+<script>
+Push.Permission.request();
+
+Push.create('Hi there!', {
+    body: 'This is a notification.',
+    icon: 'icon.png',
+    timeout: 8000,               // Timeout before notification closes automatically.
+    vibrate: [100, 100, 100],    // An array of vibration pulses for mobile devices.
+    onClick: function() {
+        // Callback for when the notification is clicked. 
+        console.log(this);
+    }  
+});
+
+</script>
+</head>
+<body>
+Hola Mundo 2
+</body>
+</html>

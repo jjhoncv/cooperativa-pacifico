@@ -1,0 +1,3951 @@
+{
+    "soafulloutput": {
+        "InfBas": {
+            "TDoc": "R",
+            "NDoc": "20335020872",
+            "RelTDoc": "",
+            "RelNDoc": "",
+            "RazSoc": "HEWLETT - PACKARD PERU S.R.L.",
+            "NomCom": "HEWLETT PACKARD ENTERPRISE",
+            "TipCon": "SOC.COM.RESPONS. LTDA",
+            "IniAct": "1996-10-17",
+            "ActEco": "VENTA AL POR MENOR DE ORDENADORES, EQUIPO PERIFÉRICO, PROGRAMAS INFORMÁTICOS Y EQUIPO DE TELECOMUNICACIONES EN COMERCIOS ESPECIALIZADOS",
+            "FchInsRRPP": "1996-12-16",
+            "NumParReg": "-             ",
+            "Fol": "-    ",
+            "Asi": "1-A  ",
+            "AgeRet": "S",
+            "ApeMat": "",
+            "ApePat": "",
+            "Nom": "",
+            "DigVer": "",
+            "Sex": "",
+            "FecNac": "0000-00-00",
+            "EstCon": "ACTIVO",
+            "EstDom": "HABIDO"
+        },
+        "InfGen": {
+            "Direcc": [
+                {
+                    "Direccion": "AVENIDA JORGE BASADRE  NRO 349 - LIMA - LIMA - SAN ISIDRO (PISO 3)",
+                    "Fuente": "SUNAT - DOMICILIO FISCAL"
+                },
+                {
+                    "Direccion": "CALLE 1  MZA. F  LTE. 2B URBANIZACION IND. BOCANEGRA - CALLAO - CALLAO - CALLAO (ZONA 6)",
+                    "Fuente": "SUNAT - DEPOSITO"
+                },
+                {
+                    "Direccion": "AVENIDA ENRIQUE MEIGGS  NRO. 324 URBANIZACION PARQUE DE LA INDUSTRIA Y - CALLAO - CALLAO - CALLAO",
+                    "Fuente": "SUNAT - DEPOSITO"
+                },
+                {
+                    "Direccion": "CALLE ALDEAS 7 LOTE 19  LTE. 19 ASC. PROGRAMA AGROPECUARIO VIL - LIMA - LIMA - VILLA EL SALVADOR",
+                    "Fuente": "SUNAT - DEPOSITO"
+                }
+            ],
+            "RepLeg": [
+                {
+                    "TDOC": "D",
+                    "NDOC": "07868456",
+                    "Nombre": "DIBOS HERRERA DARIO ALEJANDRO",
+                    "FecIniCar": "2018-04-30",
+                    "Cargo": "APODERADO"
+                },
+                {
+                    "TDOC": "D",
+                    "NDOC": "08875396",
+                    "Nombre": "DELGADO CONTRERAS JORGE LUIS",
+                    "FecIniCar": "2018-04-30",
+                    "Cargo": "APODERADO"
+                },
+                {
+                    "TDOC": "D",
+                    "NDOC": "09643686",
+                    "Nombre": "GUERRA WHITTEMBURY LUIS",
+                    "FecIniCar": "2015-08-20",
+                    "Cargo": "GERENTE GENERAL"
+                },
+                {
+                    "TDOC": "D",
+                    "NDOC": "41684745",
+                    "Nombre": "RIVAS RAMIREZ DANIEL ARTURO",
+                    "FecIniCar": "2016-06-06",
+                    "Cargo": "APODERADO"
+                }
+            ]
+        },
+        "ConRap": {
+            "DetSBSMicr": [
+                {
+                    "ano": 2023,
+                    "mes": 4,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1718398.83",
+                            "DiaVen": 0,
+                            "FchPro": "2023-4",
+                            "FchRep": "2023-3"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "75534.60",
+                            "DiaVen": 0,
+                            "FchPro": "2023-4",
+                            "FchRep": "2023-3"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2023,
+                    "mes": 3,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1738497.06",
+                            "DiaVen": 0,
+                            "FchPro": "2023-3",
+                            "FchRep": "2023-2"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "59628.37",
+                            "DiaVen": 0,
+                            "FchPro": "2023-3",
+                            "FchRep": "2023-2"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2023,
+                    "mes": 2,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1757681.74",
+                            "DiaVen": 0,
+                            "FchPro": "2023-2",
+                            "FchRep": "2023-1"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "56418.48",
+                            "DiaVen": 0,
+                            "FchPro": "2023-2",
+                            "FchRep": "2023-1"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2023,
+                    "mes": 1,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "3484302.58",
+                            "DiaVen": 0,
+                            "FchPro": "2023-1",
+                            "FchRep": "2022-12"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "53288.68",
+                            "DiaVen": 0,
+                            "FchPro": "2023-1",
+                            "FchRep": "2022-12"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 12,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1759508.85",
+                            "DiaVen": 0,
+                            "FchPro": "2022-12",
+                            "FchRep": "2022-11"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "49926.96",
+                            "DiaVen": 0,
+                            "FchPro": "2022-12",
+                            "FchRep": "2022-11"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 11,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1856145.66",
+                            "DiaVen": 0,
+                            "FchPro": "2022-11",
+                            "FchRep": "2022-10"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "56424.72",
+                            "DiaVen": 0,
+                            "FchPro": "2022-11",
+                            "FchRep": "2022-10"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 10,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1852948.21",
+                            "DiaVen": 0,
+                            "FchPro": "2022-10",
+                            "FchRep": "2022-9"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "73066.87",
+                            "DiaVen": 0,
+                            "FchPro": "2022-10",
+                            "FchRep": "2022-9"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 9,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1790369.63",
+                            "DiaVen": 0,
+                            "FchPro": "2022-9",
+                            "FchRep": "2022-8"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "32550.34",
+                            "DiaVen": 0,
+                            "FchPro": "2022-9",
+                            "FchRep": "2022-8"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 8,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1825084.76",
+                            "DiaVen": 0,
+                            "FchPro": "2022-8",
+                            "FchRep": "2022-7"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "46675.07",
+                            "DiaVen": 0,
+                            "FchPro": "2022-8",
+                            "FchRep": "2022-7"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 7,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1781690.85",
+                            "DiaVen": 0,
+                            "FchPro": "2022-7",
+                            "FchRep": "2022-6"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "69922.11",
+                            "DiaVen": 0,
+                            "FchPro": "2022-7",
+                            "FchRep": "2022-6"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 6,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1725050.37",
+                            "DiaVen": 0,
+                            "FchPro": "2022-6",
+                            "FchRep": "2022-5"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "90300.44",
+                            "DiaVen": 0,
+                            "FchPro": "2022-6",
+                            "FchRep": "2022-5"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 5,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1785801.85",
+                            "DiaVen": 0,
+                            "FchPro": "2022-5",
+                            "FchRep": "2022-4"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "74214.03",
+                            "DiaVen": 0,
+                            "FchPro": "2022-5",
+                            "FchRep": "2022-4"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 4,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1723680.04",
+                            "DiaVen": 0,
+                            "FchPro": "2022-4",
+                            "FchRep": "2022-3"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "36571.51",
+                            "DiaVen": 0,
+                            "FchPro": "2022-4",
+                            "FchRep": "2022-3"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 3,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1750173.16",
+                            "DiaVen": 0,
+                            "FchPro": "2022-3",
+                            "FchRep": "2022-2"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "2472.58",
+                            "DiaVen": 0,
+                            "FchPro": "2022-3",
+                            "FchRep": "2022-2"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 2,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1789912.85",
+                            "DiaVen": 0,
+                            "FchPro": "2022-2",
+                            "FchRep": "2022-1"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "1067.80",
+                            "DiaVen": 0,
+                            "FchPro": "2022-2",
+                            "FchRep": "2022-1"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 1,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "3676862.76",
+                            "DiaVen": 0,
+                            "FchPro": "2022-1",
+                            "FchRep": "2021-12"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "3843.21",
+                            "DiaVen": 0,
+                            "FchPro": "2022-1",
+                            "FchRep": "2021-12"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 12,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1889947.23",
+                            "DiaVen": 0,
+                            "FchPro": "2021-12",
+                            "FchRep": "2021-11"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "6273.57",
+                            "DiaVen": 0,
+                            "FchPro": "2021-12",
+                            "FchRep": "2021-11"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 11,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1822087.44",
+                            "DiaVen": 0,
+                            "FchPro": "2021-11",
+                            "FchRep": "2021-10"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "354.93",
+                            "DiaVen": 0,
+                            "FchPro": "2021-11",
+                            "FchRep": "2021-10"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 10,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1888320.25",
+                            "DiaVen": 0,
+                            "FchPro": "2021-10",
+                            "FchRep": "2021-9"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "2915.93",
+                            "DiaVen": 0,
+                            "FchPro": "2021-10",
+                            "FchRep": "2021-9"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 9,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "1865481.35",
+                            "DiaVen": 0,
+                            "FchPro": "2021-9",
+                            "FchRep": "2021-8"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "1667.92",
+                            "DiaVen": 0,
+                            "FchPro": "2021-9",
+                            "FchRep": "2021-8"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 8,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "3338066.12",
+                            "DiaVen": 0,
+                            "FchPro": "2021-8",
+                            "FchRep": "2021-7"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "4291.60",
+                            "DiaVen": 0,
+                            "FchPro": "2021-8",
+                            "FchRep": "2021-7"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 7,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "3254932.52",
+                            "DiaVen": 0,
+                            "FchPro": "2021-7",
+                            "FchRep": "2021-6"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "4099.68",
+                            "DiaVen": 0,
+                            "FchPro": "2021-7",
+                            "FchRep": "2021-6"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 6,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "4729344.40",
+                            "DiaVen": 0,
+                            "FchPro": "2021-6",
+                            "FchRep": "2021-5"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "4071.28",
+                            "DiaVen": 0,
+                            "FchPro": "2021-6",
+                            "FchRep": "2021-5"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 5,
+                    "Detalle": [
+                        {
+                            "NomEnt": "BCP",
+                            "Cal": "NOR",
+                            "SalDeu": "4777944.14",
+                            "DiaVen": 0,
+                            "FchPro": "2021-5",
+                            "FchRep": "2021-4"
+                        },
+                        {
+                            "NomEnt": "CITIBANK DEL PERU",
+                            "Cal": "NOR",
+                            "SalDeu": "2737.60",
+                            "DiaVen": 0,
+                            "FchPro": "2021-5",
+                            "FchRep": "2021-4"
+                        }
+                    ]
+                }
+            ],
+            "DetVen": [
+                {
+                    "IdFue": 4,
+                    "NomFue": "Protestos Sin Regularizar     ",
+                    "VenTot": "86264.25",
+                    "MaxDiaVen": "1883",
+                    "DetalleVencidos": [
+                        {
+                            "NomEnt": "NETSECURE PERU INFORMATICA LIMITADA S.A.C.",
+                            "MontDeu": "86264.25",
+                            "DiaVen": "1883",
+                            "NumDoc": "1"
+                        }
+                    ]
+                }
+            ],
+            "IndCre": [
+                {
+                    "Indicador": "Línea de Crédito"
+                }
+            ]
+        },
+        "AvalCod": {},
+        "ComExt": {
+            "ResEjer": [
+                {
+                    "Ejer": 2023,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 21,
+                    "ImpDol": "319031.88",
+                    "NumPai": 3,
+                    "PaiMayOpe": "BOLIVIA, UNITED STATES, ECUADOR"
+                },
+                {
+                    "Ejer": 2023,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 197,
+                    "ImpDol": "8765640.21",
+                    "NumPai": 26,
+                    "PaiMayOpe": "CHINA, MEXICO, MALAYSIA"
+                },
+                {
+                    "Ejer": 2022,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 70,
+                    "ImpDol": "1249621.99",
+                    "NumPai": 5,
+                    "PaiMayOpe": "BOLIVIA, UNITED STATES, ECUADOR"
+                },
+                {
+                    "Ejer": 2022,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 492,
+                    "ImpDol": "17037493.95",
+                    "NumPai": 32,
+                    "PaiMayOpe": "CHINA, MEXICO, MALAYSIA"
+                },
+                {
+                    "Ejer": 2021,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 78,
+                    "ImpDol": "1464022.79",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA, UNITED STATES"
+                },
+                {
+                    "Ejer": 2021,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 564,
+                    "ImpDol": "17774888.32",
+                    "NumPai": 32,
+                    "PaiMayOpe": "CHINA, MEXICO, MALAYSIA"
+                },
+                {
+                    "Ejer": 2020,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 54,
+                    "ImpDol": "848249.81",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES, BOLIVIA"
+                },
+                {
+                    "Ejer": 2020,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 452,
+                    "ImpDol": "19015104.59",
+                    "NumPai": 34,
+                    "PaiMayOpe": "CHINA, MEXICO, MALAYSIA"
+                },
+                {
+                    "Ejer": 2019,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 76,
+                    "ImpDol": "1139846.46",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES, BOLIVIA"
+                },
+                {
+                    "Ejer": 2019,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 756,
+                    "ImpDol": "25551999.80",
+                    "NumPai": 31,
+                    "PaiMayOpe": "CHINA, MEXICO, UNITED STATES"
+                },
+                {
+                    "Ejer": 2018,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 75,
+                    "ImpDol": "1466035.88",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES, BOLIVIA"
+                },
+                {
+                    "Ejer": 2018,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 774,
+                    "ImpDol": "30223495.35",
+                    "NumPai": 41,
+                    "PaiMayOpe": "CHINA, MEXICO, UNITED STATES"
+                },
+                {
+                    "Ejer": 2017,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 47,
+                    "ImpDol": "910527.99",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES, BOLIVIA"
+                },
+                {
+                    "Ejer": 2017,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 737,
+                    "ImpDol": "21171636.60",
+                    "NumPai": 35,
+                    "PaiMayOpe": "CHINA, MEXICO, UNITED STATES"
+                },
+                {
+                    "Ejer": 2016,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 2,
+                    "ImpDol": "53341.49",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Ejer": 2016,
+                    "Act": "IMPORTACIÓN",
+                    "NumOpe": 9,
+                    "ImpDol": "496722.46",
+                    "NumPai": 6,
+                    "PaiMayOpe": "CHINA, MEXICO, CZECH REPUBLIC"
+                },
+                {
+                    "Ejer": 2015,
+                    "Act": "EXPORTACIÓN",
+                    "NumOpe": 1,
+                    "ImpDol": "296.00",
+                    "NumPai": 1,
+                    "PaiMayOpe": "ARGENTINA"
+                }
+            ],
+            "ResMes": [
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "ABRIL",
+                    "NumOpe": 1,
+                    "ImpDol": "6671.35",
+                    "NumPai": 1,
+                    "PaiMayOpe": "BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "MARZO",
+                    "NumOpe": 10,
+                    "ImpDol": "140218.79",
+                    "NumPai": 1,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES,ECUADOR"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 6,
+                    "ImpDol": "92849.76",
+                    "NumPai": 1,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "ENERO",
+                    "NumOpe": 4,
+                    "ImpDol": "79291.98",
+                    "NumPai": 1,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 4,
+                    "ImpDol": "8556.50",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,CHINA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 5,
+                    "ImpDol": "73153.85",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 7,
+                    "ImpDol": "143462.82",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA,SWITZERLAND"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 6,
+                    "ImpDol": "78359.58",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 5,
+                    "ImpDol": "152168.27",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "JULIO",
+                    "NumOpe": 8,
+                    "ImpDol": "149931.07",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES,ECUADOR"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "JUNIO",
+                    "NumOpe": 9,
+                    "ImpDol": "108976.19",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "MAYO",
+                    "NumOpe": 4,
+                    "ImpDol": "104376.48",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,ECUADOR,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "ABRIL",
+                    "NumOpe": 2,
+                    "ImpDol": "24547.17",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "MARZO",
+                    "NumOpe": 11,
+                    "ImpDol": "264544.99",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA,ECUADOR"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 4,
+                    "ImpDol": "50288.47",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "ENERO",
+                    "NumOpe": 5,
+                    "ImpDol": "91256.60",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 6,
+                    "ImpDol": "55939.84",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 7,
+                    "ImpDol": "210378.43",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 3,
+                    "ImpDol": "142445.36",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 6,
+                    "ImpDol": "64297.59",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 6,
+                    "ImpDol": "61088.91",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "JULIO",
+                    "NumOpe": 9,
+                    "ImpDol": "109432.16",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "JUNIO",
+                    "NumOpe": 5,
+                    "ImpDol": "48404.03",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "MAYO",
+                    "NumOpe": 11,
+                    "ImpDol": "148501.41",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "ABRIL",
+                    "NumOpe": 5,
+                    "ImpDol": "218174.47",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "MARZO",
+                    "NumOpe": 7,
+                    "ImpDol": "213084.29",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 6,
+                    "ImpDol": "91534.60",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "ENERO",
+                    "NumOpe": 7,
+                    "ImpDol": "100741.70",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 4,
+                    "ImpDol": "71647.97",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 9,
+                    "ImpDol": "131187.63",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 1,
+                    "ImpDol": "9577.32",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 6,
+                    "ImpDol": "114541.31",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 6,
+                    "ImpDol": "52817.74",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "JULIO",
+                    "NumOpe": 4,
+                    "ImpDol": "90346.77",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "JUNIO",
+                    "NumOpe": 7,
+                    "ImpDol": "174841.97",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "MAYO",
+                    "NumOpe": 3,
+                    "ImpDol": "25736.60",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "ABRIL",
+                    "NumOpe": 4,
+                    "ImpDol": "33269.26",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 5,
+                    "ImpDol": "62132.11",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "ENERO",
+                    "NumOpe": 5,
+                    "ImpDol": "82151.13",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 9,
+                    "ImpDol": "68196.09",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 4,
+                    "ImpDol": "57739.10",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 11,
+                    "ImpDol": "202156.62",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 7,
+                    "ImpDol": "106164.18",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 8,
+                    "ImpDol": "137794.06",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "JULIO",
+                    "NumOpe": 8,
+                    "ImpDol": "64316.38",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "JUNIO",
+                    "NumOpe": 7,
+                    "ImpDol": "129586.33",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "MAYO",
+                    "NumOpe": 1,
+                    "ImpDol": "6506.95",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "ABRIL",
+                    "NumOpe": 4,
+                    "ImpDol": "64169.46",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "MARZO",
+                    "NumOpe": 9,
+                    "ImpDol": "111543.84",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 7,
+                    "ImpDol": "183390.52",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "ENERO",
+                    "NumOpe": 1,
+                    "ImpDol": "8282.93",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 7,
+                    "ImpDol": "115177.96",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 8,
+                    "ImpDol": "174419.36",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 9,
+                    "ImpDol": "57240.92",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 9,
+                    "ImpDol": "94726.08",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 10,
+                    "ImpDol": "74811.17",
+                    "NumPai": 1,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "JULIO",
+                    "NumOpe": 6,
+                    "ImpDol": "179951.32",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "JUNIO",
+                    "NumOpe": 2,
+                    "ImpDol": "69694.63",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "MAYO",
+                    "NumOpe": 6,
+                    "ImpDol": "194227.22",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "ABRIL",
+                    "NumOpe": 7,
+                    "ImpDol": "213358.81",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "MARZO",
+                    "NumOpe": 3,
+                    "ImpDol": "35418.57",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 4,
+                    "ImpDol": "125811.40",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "ENERO",
+                    "NumOpe": 4,
+                    "ImpDol": "131198.44",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 4,
+                    "ImpDol": "72456.48",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 5,
+                    "ImpDol": "151512.45",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 1,
+                    "ImpDol": "33436.18",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 4,
+                    "ImpDol": "137319.00",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "JULIO",
+                    "NumOpe": 2,
+                    "ImpDol": "8379.52",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "MAYO",
+                    "NumOpe": 10,
+                    "ImpDol": "157255.62",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "ABRIL",
+                    "NumOpe": 8,
+                    "ImpDol": "141731.89",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "MARZO",
+                    "NumOpe": 6,
+                    "ImpDol": "71551.17",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 4,
+                    "ImpDol": "88057.75",
+                    "NumPai": 2,
+                    "PaiMayOpe": "BOLIVIA,UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "ENERO",
+                    "NumOpe": 3,
+                    "ImpDol": "48827.93",
+                    "NumPai": 2,
+                    "PaiMayOpe": "UNITED STATES,BOLIVIA"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2016,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 2,
+                    "ImpDol": "53341.49",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES"
+                },
+                {
+                    "Act": "EXPORTACIÓN",
+                    "Ejer": 2015,
+                    "Mes": "ENERO",
+                    "NumOpe": 1,
+                    "ImpDol": "296.00",
+                    "NumPai": 1,
+                    "PaiMayOpe": "ARGENTINA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "ABRIL",
+                    "NumOpe": 25,
+                    "ImpDol": "917203.34",
+                    "NumPai": 13,
+                    "PaiMayOpe": "CHINA,PHILIPPINES,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "MARZO",
+                    "NumOpe": 68,
+                    "ImpDol": "4305263.66",
+                    "NumPai": 21,
+                    "PaiMayOpe": "CHINA,MALAYSIA,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 45,
+                    "ImpDol": "2285197.25",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2023,
+                    "Mes": "ENERO",
+                    "NumOpe": 59,
+                    "ImpDol": "1257975.97",
+                    "NumPai": 22,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 42,
+                    "ImpDol": "5728519.72",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 50,
+                    "ImpDol": "1881572.80",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 42,
+                    "ImpDol": "1078332.08",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,TAIWAN"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 30,
+                    "ImpDol": "728961.99",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 30,
+                    "ImpDol": "663733.98",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,MALAYSIA,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "JULIO",
+                    "NumOpe": 41,
+                    "ImpDol": "1226298.07",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "JUNIO",
+                    "NumOpe": 28,
+                    "ImpDol": "296921.04",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MALAYSIA,PHILIPPINES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "MAYO",
+                    "NumOpe": 53,
+                    "ImpDol": "869348.58",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,\"KOREA, REPUBLIC OF\""
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "ABRIL",
+                    "NumOpe": 51,
+                    "ImpDol": "1073249.48",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "MARZO",
+                    "NumOpe": 41,
+                    "ImpDol": "841318.25",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 45,
+                    "ImpDol": "1034782.94",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2022,
+                    "Mes": "ENERO",
+                    "NumOpe": 39,
+                    "ImpDol": "1614455.03",
+                    "NumPai": 22,
+                    "PaiMayOpe": "CHINA,ISRAEL,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 33,
+                    "ImpDol": "337395.79",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,THAILAND,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 30,
+                    "ImpDol": "441984.50",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,TAIWAN,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 62,
+                    "ImpDol": "2312063.84",
+                    "NumPai": 23,
+                    "PaiMayOpe": "CHINA,MEXICO,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 39,
+                    "ImpDol": "1102905.26",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,CZECH REPUBLIC,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 46,
+                    "ImpDol": "947017.19",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MALAYSIA,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "JULIO",
+                    "NumOpe": 50,
+                    "ImpDol": "1792812.65",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "JUNIO",
+                    "NumOpe": 43,
+                    "ImpDol": "665869.36",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,TAIWAN"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "MAYO",
+                    "NumOpe": 43,
+                    "ImpDol": "615477.79",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MALAYSIA,PHILIPPINES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "ABRIL",
+                    "NumOpe": 40,
+                    "ImpDol": "1298942.06",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "MARZO",
+                    "NumOpe": 48,
+                    "ImpDol": "1687901.06",
+                    "NumPai": 21,
+                    "PaiMayOpe": "CHINA,SINGAPORE,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 59,
+                    "ImpDol": "2472866.98",
+                    "NumPai": 22,
+                    "PaiMayOpe": "CHINA,MEXICO,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2021,
+                    "Mes": "ENERO",
+                    "NumOpe": 71,
+                    "ImpDol": "4099651.85",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 65,
+                    "ImpDol": "4119121.74",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 32,
+                    "ImpDol": "732473.92",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 38,
+                    "ImpDol": "2006453.88",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 43,
+                    "ImpDol": "2906910.98",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 30,
+                    "ImpDol": "831675.01",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,PHILIPPINES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "JULIO",
+                    "NumOpe": 32,
+                    "ImpDol": "1764856.72",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "JUNIO",
+                    "NumOpe": 37,
+                    "ImpDol": "1419497.61",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MEXICO,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "MAYO",
+                    "NumOpe": 23,
+                    "ImpDol": "508534.07",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "ABRIL",
+                    "NumOpe": 38,
+                    "ImpDol": "1151297.82",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "MARZO",
+                    "NumOpe": 17,
+                    "ImpDol": "357611.57",
+                    "NumPai": 15,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 39,
+                    "ImpDol": "1172219.98",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2020,
+                    "Mes": "ENERO",
+                    "NumOpe": 58,
+                    "ImpDol": "2044451.30",
+                    "NumPai": 24,
+                    "PaiMayOpe": "CHINA,MEXICO,CZECH REPUBLIC"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 42,
+                    "ImpDol": "2092948.29",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 39,
+                    "ImpDol": "1170580.39",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 72,
+                    "ImpDol": "2416893.05",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,MALAYSIA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 80,
+                    "ImpDol": "1926302.81",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 47,
+                    "ImpDol": "766027.52",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MALAYSIA,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "JULIO",
+                    "NumOpe": 58,
+                    "ImpDol": "944043.92",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "JUNIO",
+                    "NumOpe": 54,
+                    "ImpDol": "935798.48",
+                    "NumPai": 15,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "MAYO",
+                    "NumOpe": 85,
+                    "ImpDol": "2708406.54",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "ABRIL",
+                    "NumOpe": 82,
+                    "ImpDol": "2760018.98",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "MARZO",
+                    "NumOpe": 59,
+                    "ImpDol": "2962489.21",
+                    "NumPai": 22,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 58,
+                    "ImpDol": "1451369.02",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,UNITED STATES,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2019,
+                    "Mes": "ENERO",
+                    "NumOpe": 80,
+                    "ImpDol": "5417121.58",
+                    "NumPai": 18,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 55,
+                    "ImpDol": "1541183.48",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,SINGAPORE,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 38,
+                    "ImpDol": "667968.93",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,UNITED STATES,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 72,
+                    "ImpDol": "3443006.76",
+                    "NumPai": 21,
+                    "PaiMayOpe": "CHINA,MEXICO,THAILAND"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 71,
+                    "ImpDol": "1695591.49",
+                    "NumPai": 23,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 68,
+                    "ImpDol": "1520043.71",
+                    "NumPai": 21,
+                    "PaiMayOpe": "CHINA,UNITED STATES,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "JULIO",
+                    "NumOpe": 65,
+                    "ImpDol": "3096355.07",
+                    "NumPai": 23,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "JUNIO",
+                    "NumOpe": 55,
+                    "ImpDol": "2974835.31",
+                    "NumPai": 16,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "MAYO",
+                    "NumOpe": 61,
+                    "ImpDol": "2259451.91",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "ABRIL",
+                    "NumOpe": 80,
+                    "ImpDol": "2812702.50",
+                    "NumPai": 21,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "MARZO",
+                    "NumOpe": 57,
+                    "ImpDol": "2410892.13",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 57,
+                    "ImpDol": "1527993.87",
+                    "NumPai": 24,
+                    "PaiMayOpe": "CHINA,SINGAPORE,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2018,
+                    "Mes": "ENERO",
+                    "NumOpe": 95,
+                    "ImpDol": "6273470.18",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 70,
+                    "ImpDol": "2173467.74",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "NOVIEMBRE",
+                    "NumOpe": 72,
+                    "ImpDol": "2665388.25",
+                    "NumPai": 24,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "OCTUBRE",
+                    "NumOpe": 92,
+                    "ImpDol": "2554597.73",
+                    "NumPai": 21,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "SETIEMBRE",
+                    "NumOpe": 47,
+                    "ImpDol": "1110784.04",
+                    "NumPai": 15,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "AGOSTO",
+                    "NumOpe": 51,
+                    "ImpDol": "1053463.79",
+                    "NumPai": 15,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "JULIO",
+                    "NumOpe": 44,
+                    "ImpDol": "1392290.71",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "JUNIO",
+                    "NumOpe": 56,
+                    "ImpDol": "1386560.37",
+                    "NumPai": 22,
+                    "PaiMayOpe": "CHINA,UNITED STATES,MEXICO"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "MAYO",
+                    "NumOpe": 53,
+                    "ImpDol": "1015494.53",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "ABRIL",
+                    "NumOpe": 66,
+                    "ImpDol": "2504526.71",
+                    "NumPai": 19,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "MARZO",
+                    "NumOpe": 64,
+                    "ImpDol": "1471009.98",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "FEBRERO",
+                    "NumOpe": 59,
+                    "ImpDol": "1285189.49",
+                    "NumPai": 17,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2017,
+                    "Mes": "ENERO",
+                    "NumOpe": 63,
+                    "ImpDol": "2558863.27",
+                    "NumPai": 20,
+                    "PaiMayOpe": "CHINA,MEXICO,UNITED STATES"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2016,
+                    "Mes": "DICIEMBRE",
+                    "NumOpe": 7,
+                    "ImpDol": "456125.72",
+                    "NumPai": 5,
+                    "PaiMayOpe": "CHINA,MEXICO,SINGAPORE"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2016,
+                    "Mes": "MAYO",
+                    "NumOpe": 1,
+                    "ImpDol": "37829.29",
+                    "NumPai": 1,
+                    "PaiMayOpe": "CHINA"
+                },
+                {
+                    "Act": "IMPORTACIÓN",
+                    "Ejer": 2016,
+                    "Mes": "ABRIL",
+                    "NumOpe": 1,
+                    "ImpDol": "2767.45",
+                    "NumPai": 1,
+                    "PaiMayOpe": "UNITED STATES"
+                }
+            ]
+        },
+        "HecImp": {},
+        "DeuOpe": [
+            {
+                "AcrNom": "BCP",
+                "Fecha": [
+                    {
+                        "FchPro": "2023-4",
+                        "FchPub": "2023-3",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1718398.83",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1718398.83",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13329601.16",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-3",
+                        "FchPub": "2023-2",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1738497.06",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1738497.06",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13485502.93",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-2",
+                        "FchPub": "2023-1",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1757681.74",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1757681.74",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13634318.25",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-1",
+                        "FchPub": "2022-12",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "3484302.58",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "3484302.58",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "11771697.41",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-12",
+                        "FchPub": "2022-11",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1759508.85",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1759508.85",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13648491.14",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-11",
+                        "FchPub": "2022-10",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1856145.66",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1856145.66",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "14095853.19",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-10",
+                        "FchPub": "2022-9",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1852948.21",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1852948.21",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "14071051.51",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-9",
+                        "FchPub": "2022-8",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1790369.63",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1790369.63",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13585630.09",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-8",
+                        "FchPub": "2022-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1825084.76",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1825084.76",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13854914.64",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-7",
+                        "FchPub": "2022-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1781690.85",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1781690.85",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13518307.35",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-6",
+                        "FchPub": "2022-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1725050.37",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1725050.37",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13078949.09",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-5",
+                        "FchPub": "2022-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1785801.85",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1785801.85",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13550199.48",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-4",
+                        "FchPub": "2022-3",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1723680.04",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1723680.04",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13068321.52",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-3",
+                        "FchPub": "2022-2",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1750173.16",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1750173.16",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13273827.94",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-2",
+                        "FchPub": "2022-1",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1789912.85",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1789912.85",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "13582095.84",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-1",
+                        "FchPub": "2021-12",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "3676862.76",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "3676862.76",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "12271136.76",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-12",
+                        "FchPub": "2021-11",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1889947.23",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1889947.23",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "14358052.95",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-11",
+                        "FchPub": "2021-10",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1822087.44",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1822087.44",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "14133912.55",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-10",
+                        "FchPub": "2021-9",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1888320.25",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1888320.25",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "14647679.74",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-9",
+                        "FchPub": "2021-8",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "1865481.35",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "1865481.35",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "14470518.64",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-8",
+                        "FchPub": "2021-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "3338066.12",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "3338066.12",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "12821933.84",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-7",
+                        "FchPub": "2021-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "3254932.52",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "3254932.52",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "12177067.12",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-6",
+                        "FchPub": "2021-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "4729344.40",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "4729344.40",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "10542654.85",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-5",
+                        "FchPub": "2021-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "71",
+                                "DesCueCon": "CREDITOS INDIRECTOS",
+                                "MonDeu": "4777944.14",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "7102",
+                                        "DesCueCon": "CartasFianzaOtorgadas",
+                                        "MonDeu": "4777944.14",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "10370055.71",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "AcrNom": "CITIBANK DEL PERU",
+                "Fecha": [
+                    {
+                        "FchPro": "2023-4",
+                        "FchPub": "2023-3",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "75534.60",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "75534.60",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "75534.60",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4424481.63",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-3",
+                        "FchPub": "2023-2",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "59628.37",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "59628.37",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "59628.37",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4440258.20",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-2",
+                        "FchPub": "2023-1",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "56418.48",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "56418.48",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "56418.48",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4443494.67",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-1",
+                        "FchPub": "2022-12",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "53288.68",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "53288.68",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "53288.68",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4446690.83",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-12",
+                        "FchPub": "2022-11",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "49926.96",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "49926.96",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "49926.96",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4450011.21",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-11",
+                        "FchPub": "2022-10",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "56424.72",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "56424.72",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "56424.72",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4443681.18",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-10",
+                        "FchPub": "2022-9",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "73066.87",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "73066.87",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "73066.87",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4428378.86",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-9",
+                        "FchPub": "2022-8",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "32550.34",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "32550.34",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "32550.34",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4467507.41",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-8",
+                        "FchPub": "2022-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "46675.07",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "46675.07",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "46675.07",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4453334.56",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-7",
+                        "FchPub": "2022-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "69922.11",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "69922.11",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "69922.11",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4430599.19",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-6",
+                        "FchPub": "2022-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "90300.44",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "90300.44",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "90300.44",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4407204.63",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-5",
+                        "FchPub": "2022-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "74214.03",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "74214.03",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "74214.03",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4425857.02",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-4",
+                        "FchPub": "2022-3",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "36571.51",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "36571.51",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "36571.51",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4463193.88",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-3",
+                        "FchPub": "2022-2",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "2472.58",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "2472.58",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "2472.58",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4497527.09",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-2",
+                        "FchPub": "2022-1",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "1067.80",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "1067.80",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "1067.80",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4498931.92",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-1",
+                        "FchPub": "2021-12",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "3843.21",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "3843.21",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "3843.21",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4493726.43",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-12",
+                        "FchPub": "2021-11",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "6273.57",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "6273.57",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "6273.57",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4493726.43",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-11",
+                        "FchPub": "2021-10",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "354.93",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "354.93",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "354.93",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4499645.07",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-10",
+                        "FchPub": "2021-9",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "2915.93",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "2915.93",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "2915.93",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4497084.67",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-9",
+                        "FchPub": "2021-8",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "1667.92",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "1667.92",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "1667.92",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4498330.00",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-8",
+                        "FchPub": "2021-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "4291.60",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "4291.60",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "4291.60",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4495708.87",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-7",
+                        "FchPub": "2021-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "4099.68",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "4099.68",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "4099.68",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4495847.79",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-6",
+                        "FchPub": "2021-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "4071.28",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "4071.28",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "4071.28",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4495935.82",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-5",
+                        "FchPub": "2021-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "2737.60",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "2737.60",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011102",
+                                                "DesCueCon": "GranE:TarjetaCrédito",
+                                                "MonDeu": "2737.60",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "72",
+                                "DesCueCon": "LINEA NO UTIL. Y CRED. NO DESEMB.",
+                                "MonDeu": "4497261.98",
+                                "DiaVen": "0"
+                            },
+                            {
+                                "CueCon": "8109",
+                                "DesCueCon": "LINEAS OTORGADAS",
+                                "MonDeu": "4500000.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "810923",
+                                        "DesCueCon": "LíneasTarjetasC",
+                                        "MonDeu": "4500000.00",
+                                        "Diaven": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Graf": {}
+    },
+    "CodigoWS": "0"
+}

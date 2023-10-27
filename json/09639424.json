@@ -1,0 +1,1839 @@
+{
+    "soafulloutput": {
+        "InfBas": {
+            "TDoc": "D",
+            "NDoc": "09639424",
+            "RelTDoc": "R",
+            "RelNDoc": "10096394247",
+            "RazSoc": "BULEJE ALARCON ROBERT HENRY",
+            "NomCom": "SPORT PORKY",
+            "TipCon": "PERSONA NATURAL CON NEGOCIO",
+            "IniAct": "2011-08-03",
+            "ActEco": "OTRAS ACTIVIDADES DEPORTIVAS",
+            "FchInsRRPP": "0000-00-00",
+            "NumParReg": "-",
+            "Fol": "-",
+            "Asi": "-",
+            "AgeRet": "N",
+            "ApeMat": "ALARCON",
+            "ApePat": "BULEJE",
+            "Nom": "ROBERT HENRY",
+            "DigVer": "7",
+            "Sex": "MASCULINO",
+            "FecNac": "1974-06-01",
+            "EstCon": "ACTIVO",
+            "EstDom": "HABIDO"
+        },
+        "InfGen": {
+            "Direcc": [
+                {
+                    "Direccion": "AVENIDA ANTUNEZ DE MAYOLO  MZA. Z  LTE. 1 URBANIZACION LOS PINARES - LIMA - LIMA - LOS OLIVOS (ALT CRUCE AV UNIVERSITARIA CON AV MAYOLO)",
+                    "Fuente": "SUNAT - DOMICILIO FISCAL"
+                }
+            ]
+        },
+        "ConRap": {
+            "DetSBSMicr": [
+                {
+                    "ano": 2023,
+                    "mes": 4,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "77350.03",
+                            "DiaVen": 0,
+                            "FchPro": "2023-4",
+                            "FchRep": "2023-3"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2023,
+                    "mes": 3,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "80422.82",
+                            "DiaVen": 0,
+                            "FchPro": "2023-3",
+                            "FchRep": "2023-2"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2023,
+                    "mes": 2,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "104053.58",
+                            "DiaVen": 0,
+                            "FchPro": "2023-2",
+                            "FchRep": "2023-1"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2023,
+                    "mes": 1,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "106823.45",
+                            "DiaVen": 0,
+                            "FchPro": "2023-1",
+                            "FchRep": "2022-12"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 12,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "109606.07",
+                            "DiaVen": 0,
+                            "FchPro": "2022-12",
+                            "FchRep": "2022-11"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 11,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "112345.41",
+                            "DiaVen": 0,
+                            "FchPro": "2022-11",
+                            "FchRep": "2022-10"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 10,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "114982.04",
+                            "DiaVen": 0,
+                            "FchPro": "2022-10",
+                            "FchRep": "2022-9"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 9,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "117576.31",
+                            "DiaVen": 0,
+                            "FchPro": "2022-9",
+                            "FchRep": "2022-8"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 8,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "120254.50",
+                            "DiaVen": 0,
+                            "FchPro": "2022-8",
+                            "FchRep": "2022-7"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 7,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "122571.75",
+                            "DiaVen": 0,
+                            "FchPro": "2022-7",
+                            "FchRep": "2022-6"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 6,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "49504.32",
+                            "DiaVen": 0,
+                            "FchPro": "2022-6",
+                            "FchRep": "2022-5"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 5,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "63854.49",
+                            "DiaVen": 0,
+                            "FchPro": "2022-5",
+                            "FchRep": "2022-4"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 4,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "66367.95",
+                            "DiaVen": 0,
+                            "FchPro": "2022-4",
+                            "FchRep": "2022-3"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 3,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "68950.31",
+                            "DiaVen": 0,
+                            "FchPro": "2022-3",
+                            "FchRep": "2022-2"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 2,
+                    "Detalle": [
+                        {
+                            "NomEnt": "MIBCO",
+                            "Cal": "NOR",
+                            "SalDeu": "71076.99",
+                            "DiaVen": 0,
+                            "FchPro": "2022-2",
+                            "FchRep": "2022-1"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2022,
+                    "mes": 1,
+                    "Detalle": [
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "NOR",
+                            "SalDeu": "16447.81",
+                            "DiaVen": 0,
+                            "FchPro": "2022-1",
+                            "FchRep": "2021-12"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 12,
+                    "Detalle": [
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "NOR",
+                            "SalDeu": "17767.42",
+                            "DiaVen": 0,
+                            "FchPro": "2021-12",
+                            "FchRep": "2021-11"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 11,
+                    "Detalle": [
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "NOR",
+                            "SalDeu": "19046.97",
+                            "DiaVen": 0,
+                            "FchPro": "2021-11",
+                            "FchRep": "2021-10"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 10,
+                    "Detalle": [
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "NOR",
+                            "SalDeu": "20313.06",
+                            "DiaVen": 0,
+                            "FchPro": "2021-10",
+                            "FchRep": "2021-9"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 9,
+                    "Detalle": [
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "DUD",
+                            "SalDeu": "22751.06",
+                            "DiaVen": 0,
+                            "FchPro": "2021-9",
+                            "FchRep": "2021-8"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 8,
+                    "Detalle": [
+                        {
+                            "NomEnt": "INTERBANK",
+                            "Cal": "PER",
+                            "SalDeu": "19338.42",
+                            "DiaVen": 688,
+                            "FchPro": "2021-8",
+                            "FchRep": "2021-7"
+                        },
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "DUD",
+                            "SalDeu": "22751.06",
+                            "DiaVen": 0,
+                            "FchPro": "2021-8",
+                            "FchRep": "2021-7"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 7,
+                    "Detalle": [
+                        {
+                            "NomEnt": "INTERBANK",
+                            "Cal": "PER",
+                            "SalDeu": "19338.42",
+                            "DiaVen": 657,
+                            "FchPro": "2021-7",
+                            "FchRep": "2021-6"
+                        },
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "DUD",
+                            "SalDeu": "23940.89",
+                            "DiaVen": 0,
+                            "FchPro": "2021-7",
+                            "FchRep": "2021-6"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 6,
+                    "Detalle": [
+                        {
+                            "NomEnt": "INTERBANK",
+                            "Cal": "PER",
+                            "SalDeu": "19338.42",
+                            "DiaVen": 443,
+                            "FchPro": "2021-6",
+                            "FchRep": "2021-5"
+                        },
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "DUD",
+                            "SalDeu": "25072.26",
+                            "DiaVen": 0,
+                            "FchPro": "2021-6",
+                            "FchRep": "2021-5"
+                        }
+                    ]
+                },
+                {
+                    "ano": 2021,
+                    "mes": 5,
+                    "Detalle": [
+                        {
+                            "NomEnt": "INTERBANK",
+                            "Cal": "PER",
+                            "SalDeu": "19338.42",
+                            "DiaVen": 412,
+                            "FchPro": "2021-5",
+                            "FchRep": "2021-4"
+                        },
+                        {
+                            "NomEnt": "CMAC AREQUIPA",
+                            "Cal": "DUD",
+                            "SalDeu": "24109.61",
+                            "DiaVen": 0,
+                            "FchPro": "2021-5",
+                            "FchRep": "2021-4"
+                        }
+                    ]
+                }
+            ],
+            "DetVen": [
+                {
+                    "IdFue": 4,
+                    "NomFue": "Protestos Sin Regularizar     ",
+                    "VenTot": "25692.31",
+                    "MaxDiaVen": "889",
+                    "DetalleVencidos": [
+                        {
+                            "NomEnt": "BANCO INTERNACIONAL DEL PERU-INTERBANK",
+                            "MontDeu": "25692.31",
+                            "DiaVen": "889",
+                            "NumDoc": "1"
+                        }
+                    ]
+                },
+                {
+                    "IdFue": 5,
+                    "NomFue": "Documentos Impagos            ",
+                    "VenTot": "427178.19",
+                    "MaxDiaVen": "774",
+                    "DetalleVencidos": [
+                        {
+                            "NomEnt": "CORPORACION MERCANTIL LA YAPA SAC",
+                            "MontDeu": "426665.29",
+                            "DiaVen": "55",
+                            "NumDoc": "1"
+                        },
+                        {
+                            "NomEnt": "AUTORIDAD DE TRANSPORTE URBANO PARA LIMA Y CALLAO - ATU",
+                            "MontDeu": "512.90",
+                            "DiaVen": "774",
+                            "NumDoc": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "AvalCod": {},
+        "HecImp": {},
+        "DeuOpe": [
+            {
+                "AcrNom": "INTERBANK",
+                "Fecha": [
+                    {
+                        "FchPro": "2021-8",
+                        "FchPub": "2021-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "19338.42",
+                                "DiaVen": "688",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8103",
+                                        "DesCueCon": "Castigadas",
+                                        "MonDeu": "19338.42",
+                                        "Diaven": "688"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-7",
+                        "FchPub": "2021-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "19338.42",
+                                "DiaVen": "657",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8103",
+                                        "DesCueCon": "Castigadas",
+                                        "MonDeu": "19338.42",
+                                        "Diaven": "657"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-6",
+                        "FchPub": "2021-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "19338.42",
+                                "DiaVen": "443",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8103",
+                                        "DesCueCon": "Castigadas",
+                                        "MonDeu": "19338.42",
+                                        "Diaven": "443"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-5",
+                        "FchPub": "2021-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "19338.42",
+                                "DiaVen": "412",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1405",
+                                        "DesCueCon": "CRÉDITOS VENCIDOS",
+                                        "MonDeu": "19338.42",
+                                        "Diaven": "412",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14050302",
+                                                "DesCueCon": "Consumo:TarjetaCrédito",
+                                                "MonDeu": "19338.42",
+                                                "Diaven": "412",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1405030202",
+                                                        "DesCueCon": "Compra",
+                                                        "MonDeu": "19338.42",
+                                                        "Diaven": "412"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "AcrNom": "CMAC AREQUIPA",
+                "Fecha": [
+                    {
+                        "FchPro": "2022-1",
+                        "FchPub": "2021-12",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "16447.81",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "16447.81",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "16447.81",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "16447.81",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-12",
+                        "FchPub": "2021-11",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "17767.42",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "17767.42",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "17767.42",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "17767.42",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-11",
+                        "FchPub": "2021-10",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "19046.97",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "19046.97",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "19046.97",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "19046.97",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-10",
+                        "FchPub": "2021-9",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "20313.06",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "20313.06",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "20313.06",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "20313.06",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-9",
+                        "FchPub": "2021-8",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "22751.06",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "22751.06",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "22751.06",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "22751.06",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-8",
+                        "FchPub": "2021-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "22751.06",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "22751.06",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "22751.06",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "22751.06",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-7",
+                        "FchPub": "2021-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "23940.89",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "23940.89",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "23940.89",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "23940.89",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-6",
+                        "FchPub": "2021-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "25072.26",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "25072.26",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "25072.26",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "25072.26",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2021-5",
+                        "FchPub": "2021-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "24109.61",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "24109.61",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "24109.61",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "24109.61",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "81",
+                                "DesCueCon": "CREDITOS JUDICIALES Y CASTIGADOS",
+                                "MonDeu": "0.00",
+                                "DiaVen": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "AcrNom": "MIBCO",
+                "Fecha": [
+                    {
+                        "FchPro": "2023-4",
+                        "FchPub": "2023-3",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "77350.03",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "77350.03",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "77350.03",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "77350.03",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-3",
+                        "FchPub": "2023-2",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "80422.82",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "80422.82",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "80422.82",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "80422.82",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-2",
+                        "FchPub": "2023-1",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "104053.58",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "104053.58",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "104053.58",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "104053.58",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2023-1",
+                        "FchPub": "2022-12",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "106823.45",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "106823.45",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "106823.45",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "106823.45",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-12",
+                        "FchPub": "2022-11",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "109606.07",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "109606.07",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "109606.07",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "109606.07",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-11",
+                        "FchPub": "2022-10",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "112345.41",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "112345.41",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "112345.41",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "112345.41",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-10",
+                        "FchPub": "2022-9",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "114982.04",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "114982.04",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "114982.04",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "114982.04",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-9",
+                        "FchPub": "2022-8",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "117576.31",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "117576.31",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "117576.31",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "117576.31",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-8",
+                        "FchPub": "2022-7",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "120254.50",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "120254.50",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14011306",
+                                                "DesCueCon": "Pyme:Préstamos",
+                                                "MonDeu": "120254.50",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401130602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "120254.50",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-7",
+                        "FchPub": "2022-6",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "122571.75",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "122571.75",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14010206",
+                                                "DesCueCon": "Mype:Préstamos",
+                                                "MonDeu": "122571.75",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401020602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "122571.75",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "1.00",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "1.00",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-6",
+                        "FchPub": "2022-5",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "49504.32",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "49504.32",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14010206",
+                                                "DesCueCon": "Mype:Préstamos",
+                                                "MonDeu": "49504.32",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401020602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "49504.32",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "49505.32",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "49505.32",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            },
+                                            {
+                                                "CueCon": "840410",
+                                                "DesCueCon": "GtíasNoPref(AvalyFianza)",
+                                                "MonDeu": "49504.32",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-5",
+                        "FchPub": "2022-4",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "63854.49",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "63854.49",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14010206",
+                                                "DesCueCon": "Mype:Préstamos",
+                                                "MonDeu": "63854.49",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401020602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "63854.49",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "63855.49",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "63855.49",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            },
+                                            {
+                                                "CueCon": "840410",
+                                                "DesCueCon": "GtíasNoPref(AvalyFianza)",
+                                                "MonDeu": "63854.49",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-4",
+                        "FchPub": "2022-3",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "66367.95",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "66367.95",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14010206",
+                                                "DesCueCon": "Mype:Préstamos",
+                                                "MonDeu": "66367.95",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401020602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "66367.95",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "66368.95",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "66368.95",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            },
+                                            {
+                                                "CueCon": "840410",
+                                                "DesCueCon": "GtíasNoPref(AvalyFianza)",
+                                                "MonDeu": "66367.95",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-3",
+                        "FchPub": "2022-2",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "68950.31",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "68950.31",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14010206",
+                                                "DesCueCon": "Mype:Préstamos",
+                                                "MonDeu": "68950.31",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401020602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "68950.31",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "68951.31",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "68951.31",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            },
+                                            {
+                                                "CueCon": "840410",
+                                                "DesCueCon": "GtíasNoPref(AvalyFianza)",
+                                                "MonDeu": "68950.31",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "FchPro": "2022-2",
+                        "FchPub": "2022-1",
+                        "CueConNiv1": [
+                            {
+                                "CueCon": "14",
+                                "DesCueCon": "CREDITOS DIRECTOS",
+                                "MonDeu": "71076.99",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "1401",
+                                        "DesCueCon": "CRÉDITOS VIGENTES",
+                                        "MonDeu": "71076.99",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "14010206",
+                                                "DesCueCon": "Mype:Préstamos",
+                                                "MonDeu": "71076.99",
+                                                "Diaven": "0",
+                                                "CueConNiv4": [
+                                                    {
+                                                        "CueCon": "1401020602",
+                                                        "DesCueCon": "NoRevolventes",
+                                                        "MonDeu": "71076.99",
+                                                        "Diaven": "0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "CueCon": "84",
+                                "DesCueCon": "GARANTIAS",
+                                "MonDeu": "71077.99",
+                                "DiaVen": "0",
+                                "CueConNiv2": [
+                                    {
+                                        "CueCon": "8404",
+                                        "DesCueCon": "GARANTIAS RECIBIDAS",
+                                        "MonDeu": "71077.99",
+                                        "Diaven": "0",
+                                        "CueConNiv3": [
+                                            {
+                                                "CueCon": "840409",
+                                                "DesCueCon": "OtrasGtíasNoPref",
+                                                "MonDeu": "1.00",
+                                                "Diaven": "0"
+                                            },
+                                            {
+                                                "CueCon": "840410",
+                                                "DesCueCon": "GtíasNoPref(AvalyFianza)",
+                                                "MonDeu": "71076.99",
+                                                "Diaven": "0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Graf": {}
+    },
+    "CodigoWS": "0"
+}
