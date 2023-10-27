@@ -2,7 +2,7 @@
 
 include_once 'test.php';
 $new = new CurlRequest();
-$token = $_GET["token"];
+$token = htmlspecialchars($_GET["token"]);
 
 $new->borra_password_db_api($token);
 

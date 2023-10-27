@@ -119,7 +119,7 @@ function modificar(){
     <tbody>
     <?php
     
-    $api->getAll_agencias(trim($_GET['keyword']));
+    $api->getAll_agencias(trim(htmlspecialchars($_GET['keyword'])));
     ?>
     
     

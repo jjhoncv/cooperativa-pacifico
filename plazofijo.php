@@ -72,7 +72,7 @@ function activa(){
     <tbody>
     <?php
     
-    $api->getAll_plazofijo(trim($_GET['keyword']));
+    $api->getAll_plazofijo(trim(htmlspecialchars($_GET['keyword'])));
     ?>
     
     

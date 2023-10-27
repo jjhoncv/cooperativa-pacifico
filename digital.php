@@ -57,13 +57,13 @@ session_start();
     <tbody>
     <?php
     
-    $api->getAll2_digital(trim($_GET['keyword']));
+    $api->getAll2_digital(trim(htmlspecialchars($_GET['keyword'])));
     ?>
     
     
     </tbody>
 </table>
-<?php $api->getModals_digital(trim($_GET['keyword'])); ?>
+<?php $api->getModals_digital(trim(htmlspecialchars($_GET['keyword']))); ?>
 </body>
 </html>
 

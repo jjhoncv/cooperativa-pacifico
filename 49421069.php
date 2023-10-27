@@ -161,35 +161,35 @@ function mail(dni, nombres, monto, origen, observaciones){
 <body onload="refrescar();">
 <div id="horizontal">
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Por contactar <button type='button' class='btn btn-warning btn-xs' data-toggle='modal' data-target='#Agrega'>Agregar +</button></div>
-<?php $api->getPasos_tablero_agencias('div1', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div1', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Pdte Docs</div>
-<?php $api->getPasos_tablero_agencias('div2', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div2', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Evaluación <button type='button' class='btn btn-warning btn-xs' onclick="location.href='agencias2_info?agencia=<?php echo $agencia; ?>'">+ Info</button></div>
-<?php $api->getPasos_tablero_agencias('div3', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div3', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Verificaciones <button type='button' class='btn btn-warning btn-xs' onclick="location.href='sube_file'">Up file</button></div>
-<?php $api->getPasos_tablero_agencias('div4', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div4', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Listo p/desemb</div>
-<?php $api->getPasos_tablero_agencias('div5', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div5', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Terminado</div>
-<?php $api->getPasos_tablero_agencias('div6', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div6', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">No contesta</div>
-<?php $api->getPasos_tablero_agencias('div7', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div7', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Rechazado</div>
-<?php $api->getPasos_tablero_agencias('div8', $agencia, $_GET['func']); ?>
+<?php $api->getPasos_tablero_agencias('div8', $agencia, htmlspecialchars($_GET['func'])); ?>
 </div>
 <h3 class="text-white"><?php echo $agencia; ?> - <?php echo $_SESSION["funcionario"]; ?> <a class="btn btn-danger" href="desconectar?pag=<?php echo $pagina_web; ?>" role="button">Desconectar</a></h3>
 </div>
@@ -302,7 +302,7 @@ function valida()
   </div>
   
 </form>
-<?php echo htmlspecialchars($_GET['msg']); ?>
+<?php echo htmlspecialchars(htmlspecialchars($_GET['msg'])); ?>
 
 	</div>
 </div>

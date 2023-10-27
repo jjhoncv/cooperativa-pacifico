@@ -107,38 +107,38 @@ function refrescar(){
 <body onload="refrescar();">
 <div id="horizontal">
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 1-3 días <?php $api->getPasos2_cobranza_cuenta('div1', $_GET['grupo']); ?> <button type='button' class='btn btn-warning btn-xs' onclick="location.href='cargaprestamo'">+</button></div>
-<?php $api->getPasos2_cobranza('div1', $_GET['grupo']); ?>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 1-3 días <?php $api->getPasos2_cobranza_cuenta('div1', htmlspecialchars($_GET['grupo'])); ?> <button type='button' class='btn btn-warning btn-xs' onclick="location.href='cargaprestamo'">+</button></div>
+<?php $api->getPasos2_cobranza('div1', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 4-30 días <?php $api->getPasos2_cobranza_cuenta('div2', $_GET['grupo']); ?></div>
-<?php $api->getPasos2_cobranza('div2', $_GET['grupo']); ?>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 4-30 días <?php $api->getPasos2_cobranza_cuenta('div2', htmlspecialchars($_GET['grupo'])); ?></div>
+<?php $api->getPasos2_cobranza('div2', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
-<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 31-60 días <?php $api->getPasos2_cobranza_cuenta('div3', $_GET['grupo']); ?></div>
-<?php $api->getPasos2_cobranza('div3', $_GET['grupo']); ?>
+<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 31-60 días <?php $api->getPasos2_cobranza_cuenta('div3', htmlspecialchars($_GET['grupo'])); ?></div>
+<?php $api->getPasos2_cobranza('div3', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
-<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 61-90 días <?php $api->getPasos2_cobranza_cuenta('div4', $_GET['grupo']); ?></div>
-<?php $api->getPasos2_cobranza('div4', $_GET['grupo']); ?>
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 61-90 días <?php $api->getPasos2_cobranza_cuenta('div4', htmlspecialchars($_GET['grupo'])); ?></div>
+<?php $api->getPasos2_cobranza('div4', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
-<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 91-180 días <?php $api->getPasos2_cobranza_cuenta('div5', $_GET['grupo']); ?></div>
-<?php $api->getPasos2_cobranza('div5', $_GET['grupo']); ?>
+<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 91-180 días <?php $api->getPasos2_cobranza_cuenta('div5', htmlspecialchars($_GET['grupo'])); ?></div>
+<?php $api->getPasos2_cobranza('div5', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
-<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 181-360d <?php $api->getPasos2_cobranza_cuenta('div6', $_GET['grupo']); ?></div>
-<?php $api->getPasos2_cobranza('div6', $_GET['grupo']); ?>
+<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV 181-360d <?php $api->getPasos2_cobranza_cuenta('div6', htmlspecialchars($_GET['grupo'])); ?></div>
+<?php $api->getPasos2_cobranza('div6', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
-<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV +361 días <?php $api->getPasos2_cobranza_cuenta('div7', $_GET['grupo']); ?></div>
-<?php $api->getPasos2_cobranza('div7', $_GET['grupo']); ?>
+<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">DV +361 días <?php $api->getPasos2_cobranza_cuenta('div7', htmlspecialchars($_GET['grupo'])); ?></div>
+<?php $api->getPasos2_cobranza('div7', htmlspecialchars($_GET['grupo'])); ?>
 </div>
 
 </div>
 
 
-<?php $api->getModals_cobranza2($_GET['grupo']); ?>
+<?php $api->getModals_cobranza2(htmlspecialchars($_GET['grupo'])); ?>
 
 
 </body>

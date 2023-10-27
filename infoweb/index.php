@@ -1,7 +1,7 @@
 <?php
 $msg = "";
 
-$msg = $_GET["msg"];
+$msg = htmlspecialchars($_GET["msg"]);
 
 ?>
 

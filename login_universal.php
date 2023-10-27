@@ -2,7 +2,7 @@
 
 $email = $_POST["email"];
 $password = $_POST["password"];
-$pagina = $_GET["ori"];
+$pagina = htmlspecialchars($_GET["ori"]);
 
 if($email==$password)
 {

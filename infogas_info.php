@@ -67,7 +67,7 @@ function activa(){
     <tbody>
     <?php
     
-    $api->getAll_infogas(trim($_GET['keyword']));
+    $api->getAll_infogas(trim(htmlspecialchars($_GET['keyword'])));
     ?>
     
     

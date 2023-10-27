@@ -7,7 +7,7 @@ $sueldo = trim($_POST["sueldo"]);
 $equipo = $_POST["equipo"];
 
 if($dni=="")
-	$dni = trim($_GET["dni"]);
+	$dni = trim(htmlspecialchars($_GET["dni"]));
 
 if($dni!=""){
 

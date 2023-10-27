@@ -7,7 +7,7 @@ if (isset($_SESSION["login"]))
    include_once 'apipersonas_plazofijo.php';
    $api = new ApiPersonas();
    
-   $func = $_GET['func'];
+   $func = htmlspecialchars($_GET['func']);
    
 ?>
 <!DOCTYPE HTML>

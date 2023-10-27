@@ -9,7 +9,7 @@ include_once 'test.php';
 
 $new = new CurlRequest();
 
-//1 = c¨®digo de socio 0 = DNI
+//1 = cï¿½ï¿½digo de socio 0 = DNI
 
 
 $doi = $_POST["doi"];
@@ -95,7 +95,7 @@ function graba(doi){
             <br>
               <div class="mb-3">
                 <h3>Bloqueo y Desbloqueo de Usuarios Pacinet</h3>
-                <input type="text" id="doi" name="doi" size="30" placeholder="C¨®digo de socio o DNI">
+                <input type="text" id="doi" name="doi" size="30" placeholder="Cï¿½ï¿½digo de socio o DNI">
               <button type="submit" class="btn btn-primary btn-xs">Buscar</button>
                 
               </div>
@@ -109,10 +109,10 @@ function graba(doi){
 		<div id="demo"></div>
 		<br><br>
 		<a href="https://pacinet.cp.com.pe/recoveryPassword">https://pacinet.cp.com.pe/recoveryPassword</a>
-		<h3>¨²ltimos eventos</h3>
+		<h3>ï¿½ï¿½ltimos eventos</h3>
 		<?php $new->getListadoPacinet_api(); ?>
 		<hr>
-		<a class="btn btn-danger" href="desconectar?pag=pacinet" role="button">&#920; Cerrar sesi¨®n</a>
+		<a class="btn btn-danger" href="desconectar?pag=pacinet" role="button">&#920; Cerrar sesiï¿½ï¿½n</a>
 
     </div>
     
@@ -150,7 +150,7 @@ function graba(doi){
 <?php
 }else
 {
-	$msg = $_GET["msg"];
+	$msg = htmlspecialchars($_GET["msg"]);
 ?>
 <!doctype html>
 <html lang="es">
@@ -240,15 +240,15 @@ function olvido(){
         <div class='modal-content'>
             <div class='modal-header'>
                 <h3 class='modal-title' id='exampleModalLongTitle'>
-					Creaci¨®n de usuario
+					Creaciï¿½ï¿½n de usuario
 					</h3>
             </div>
         <div class='modal-body'>
 				
-							<input type="text" name="correo1" id="correo1" size="45" placeholder="Ingresa tu correo de la Cooperativa Pac¨ªfico">
+							<input type="text" name="correo1" id="correo1" size="45" placeholder="Ingresa tu correo de la Cooperativa Pacï¿½ï¿½fico">
 							
 							<br><br>
-							Se enviar¨¢ un link para completar el proceso
+							Se enviarï¿½ï¿½ un link para completar el proceso
             </div>
             <div class='modal-footer'>
                 <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
@@ -270,10 +270,10 @@ function olvido(){
             </div>
         <div class='modal-body'>
 				
-							<input type="text" name="correo2" id="correo2" size="45" placeholder="Ingresa tu correo de la Cooperativa Pac¨ªfico">
+							<input type="text" name="correo2" id="correo2" size="45" placeholder="Ingresa tu correo de la Cooperativa Pacï¿½ï¿½fico">
 							
 							<br><br>
-							Se enviar¨¢ un link para completar el proceso
+							Se enviarï¿½ï¿½ un link para completar el proceso
             </div>
             <div class='modal-footer'>
                 <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>

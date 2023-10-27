@@ -9,7 +9,7 @@ if (isset($_SESSION["funcionario"]))
    $api = new ApiPersonas();
    
    
-   $agencia = $_GET['agencia'];
+   $agencia = htmlspecialchars($_GET['agencia']);
 ?>
 <!doctype html>
 <html lang="es">
@@ -43,7 +43,7 @@ if (isset($_SESSION["funcionario"]))
     <tbody>
     <?php
     
-    $api->getAll_agencias2(trim($_GET['keyword']), $agencia);
+    $api->getAll_agencias2(trim(htmlspecialchars($_GET['keyword'])), $agencia);
     ?>
     
     

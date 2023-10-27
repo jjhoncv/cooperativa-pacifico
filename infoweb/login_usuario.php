@@ -5,7 +5,7 @@ $new = new CurlRequest();
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-$pagina = $_GET["pagina"];
+$pagina = htmlspecialchars($_GET["pagina"]);
 
 	$datos = $new->valida_ususario($email, $password);
 	$obj_datos = json_decode($datos);

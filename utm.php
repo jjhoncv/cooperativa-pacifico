@@ -2,8 +2,8 @@
 include_once 'apipersonas.php';
 $api = new ApiPersonas();
 
-$fec_inicio = $_GET['fec_inicio'];
-$fec_fin = $_GET['fec_fin'];
+$fec_inicio = htmlspecialchars($_GET['fec_inicio']);
+$fec_fin = htmlspecialchars($_GET['fec_fin']);
 ?>
 <!DOCTYPE html>
 <html lang="es">

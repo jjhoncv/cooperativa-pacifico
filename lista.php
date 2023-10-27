@@ -69,7 +69,7 @@ function activa(){
     <tbody>
     <?php
     
-    $api->getAll2(trim($_GET['keyword']));
+    $api->getAll2(trim(htmlspecialchars($_GET['keyword'])));
     ?>
     
     
@@ -284,7 +284,7 @@ function activa(){
 
 <?php
 }else
-{$msg = $_GET["msg"];
+{$msg = htmlspecialchars($_GET["msg"]);
 ?>
 <!doctype html>
 <html lang="es">

@@ -3,7 +3,7 @@
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-$pagina = $_GET["pagina"];
+$pagina = htmlspecialchars($_GET["pagina"]);
 
 if($pagina!="om_info"){
 

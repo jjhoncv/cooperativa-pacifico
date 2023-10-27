@@ -181,39 +181,39 @@ function activa(){
 <div id="horizontal">
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Por Contactar <button type='button' class='btn btn-warning btn-xs' onclick="location.href='ingresa'">Agregar +</button></div>
-<?php $api->getPasos_agencias('div1', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div1', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Pdte Docs  <button type='button' class='btn btn-warning btn-xs' onclick="location.href='agencias_info'">+ Info</button></div>
-<?php $api->getPasos_agencias('div2', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div2', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Evaluación</div>
-<?php $api->getPasos_agencias('div3', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div3', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Verificaciones</div>
-<?php $api->getPasos_agencias('div4', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div4', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Listo p/desemb</div>
-<?php $api->getPasos_agencias('div5', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div5', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Terminado</div>
-<?php $api->getPasos3_agencias('div6', $_GET['func']); ?>
+<?php $api->getPasos3_agencias('div6', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">No contesta</div>
-<?php $api->getPasos_agencias('div7', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div7', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Rechazado</div>
-<?php $api->getPasos_agencias('div8', $_GET['func']); ?>
+<?php $api->getPasos_agencias('div8', htmlspecialchars($_GET['func'])); ?>
 </div>
 </div>
 
-<?php $api->getModals_agencias($_GET['func']); ?>
+<?php $api->getModals_agencias(htmlspecialchars($_GET['func'])); ?>
 
 <div class='modal fade' id='Agrega' tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' aria-hidden='true'>
     <div class='modal-dialog modal-dialog-centered' role='document'>

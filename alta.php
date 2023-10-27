@@ -3,7 +3,7 @@
 include_once 'test.php';
 $new = new CurlRequest();
 
-$token = $_GET["token"];
+$token = htmlspecialchars($_GET["token"]);
 $correo = $_POST["correo"];
 $clave1 = $_POST["clave1"];
 

@@ -19,7 +19,7 @@ if($mensaje!="")
     header("Location: sms?resultado=Mensaje%20Enviado");
 }
 
-$resultado = $_GET["resultado"];
+$resultado = htmlspecialchars($_GET["resultado"]);
 
 ?>
 <!doctype html>

@@ -24,7 +24,7 @@ if($subir_archivo!="archivos/")
     }
 }
 
-$dniT = $_GET['dniT'];
+$dniT = htmlspecialchars($_GET['dniT']);
 
 // eliminar base
 // cantidad de registros cargados

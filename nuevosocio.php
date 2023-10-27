@@ -4,7 +4,7 @@ include_once 'apinuevo_socio.php';
 include_once 'test.php';
 $api = new ApiSocios();
 
-$dni = $_GET['dni'];
+$dni = htmlspecialchars($_GET['dni']);
 
 	if(strlen($dni)==8)
 		$tipo = "D";

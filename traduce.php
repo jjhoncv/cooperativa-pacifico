@@ -1,7 +1,7 @@
 <?php 
 
 
-$doi = $_GET["doi"];
+$doi = htmlspecialchars($_GET["doi"]);
 
 
 $response = file_get_contents("json/" . $doi . ".json", true);

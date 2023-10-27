@@ -1,6 +1,6 @@
 <?php
 
-	$dni = $_GET["dni"];
+	$dni = htmlspecialchars($_GET["dni"]);
 
 	$headers =  array(
 	 'Content-Type:application/json',

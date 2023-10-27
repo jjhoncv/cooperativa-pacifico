@@ -4,7 +4,7 @@ include_once '../test.php';
 
 $new = new CurlRequest();
 
-	$accion = $_GET["accion"];
+	$accion = htmlspecialchars($_GET["accion"]);
 	$func = $_POST["func"];
 	
 	$msg = "";

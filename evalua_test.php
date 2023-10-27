@@ -1,8 +1,8 @@
 <?php
 include_once 'mini_test.php';
 
-	$dni = $_GET['dni'];
-	$sueldo = $_GET['sueldo'];
+	$dni = htmlspecialchars($_GET['dni']);
+	$sueldo = htmlspecialchars($_GET['sueldo']);
 
 	$dni = trim($dni);
 	$sueldo = $sueldo*0.76;

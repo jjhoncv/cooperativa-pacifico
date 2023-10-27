@@ -144,35 +144,35 @@ function refrescar(){
 <div id="horizontal">
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Por Contactar <button type='button' class='btn btn-warning btn-xs' btn-xs' data-toggle='modal' data-target='#Agrega'>Agregar +</button></div>
-<?php $api->getPasos2_infogas('div1', $_GET['func']); ?>
+<?php $api->getPasos2_infogas('div1', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Evaluación <button type='button' class='btn btn-warning btn-xs' onclick="location.href='infogas_info'">+ Info</button></div>
-<?php $api->getPasos2_infogas('div2', $_GET['func']); ?>
+<?php $api->getPasos2_infogas('div2', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Verificaciones</div>
-<?php $api->getPasos2_infogas('div3', $_GET['func']); ?>
+<?php $api->getPasos2_infogas('div3', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">En Revisión</div>
-<?php $api->getPasos2_infogas('div4', $_GET['func']); ?>
+<?php $api->getPasos2_infogas('div4', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Firma de Crédito</div>
-<?php $api->getPasos2_infogas('div5', $_GET['func']); ?>
+<?php $api->getPasos2_infogas('div5', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Desembolsado</div>
-<?php $api->getPasos3_infogas('div6', $_GET['func']); ?>
+<?php $api->getPasos3_infogas('div6', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" class="p-0 custom-scrollbar-css"><div class="card-header bg-secondary text-white">Descartados</div>
-<?php $api->getPasos2_descartados_infogas('div7', $_GET['func']); ?>
+<?php $api->getPasos2_descartados_infogas('div7', htmlspecialchars($_GET['func'])); ?>
 </div>
 
 </div>
-<?php $api->getModals_infogas($_GET['func']); ?>
+<?php $api->getModals_infogas(htmlspecialchars($_GET['func'])); ?>
 
 
 <div class='modal fade' id='Agrega' tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' aria-hidden='true'>

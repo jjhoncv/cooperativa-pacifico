@@ -4,7 +4,7 @@ include_once 'test.php';
 $dni = trim($_POST["dni"]);
 
 if($dni=="")
-	$dni = trim($_GET["dni"]);
+	$dni = trim(htmlspecialchars($_GET["dni"]));
 
 if($dni!=""){
 

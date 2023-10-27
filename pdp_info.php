@@ -90,7 +90,7 @@ function eliminar(){
     <tbody>
     <?php
     
-    $api->getAll_pdp(trim($_GET['keyword']));
+    $api->getAll_pdp(trim(htmlspecialchars($_GET['keyword'])));
     ?>
     
     

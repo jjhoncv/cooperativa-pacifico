@@ -2,7 +2,7 @@
 @session_start();
 session_destroy();
 
-$pagina = $_GET['pag'];
+$pagina = htmlspecialchars($_GET['pag']);
 
 header("Location: $pagina");
 

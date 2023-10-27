@@ -54,7 +54,7 @@ include_once 'apipersonas.php';
 
 </head>
 <body>
-<?php echo htmlspecialchars($_GET['msg']); ?>
+<?php echo htmlspecialchars(htmlspecialchars($_GET['msg'])); ?>
 <br>
 <form name="cuerpo" method="post" action="graba">
 <input type='number' class='form-control' name='dni' id='dni' autocomplete='off' placeholder='Dni' size='30' minlength='8' maxlength='8' required pattern='[0-9]+' aria-describedby='inputGroup-sizing-sm'><br>

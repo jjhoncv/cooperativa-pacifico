@@ -2,8 +2,8 @@
 include_once 'apipersonas.php';
 $api = new ApiPersonas();
 
-$tabla = $_GET['tabla'];
-$id = $_GET['id'];
+$tabla = htmlspecialchars($_GET['tabla']);
+$id = htmlspecialchars($_GET['id']);
 
 $api->no_es_urgente_api($tabla, $id);
 //$api->borra_registro($tabla, $id);
