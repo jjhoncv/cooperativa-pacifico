@@ -1,9 +1,11 @@
 <?php
 	include_once 'mini_test.php';
 	$new = new CurlRequest();
+
+	$authorization = htmlspecialchars($_SERVER["HTTP_AUTHORIZATION"]);
 	
-	if (isset($_SERVER["HTTP_AUTHORIZATION"]) && 0 === stripos($_SERVER["HTTP_AUTHORIZATION"], 'basic ')) {
-            $exploded = explode(':', base64_decode(substr($_SERVER["HTTP_AUTHORIZATION"], 6)), 2);
+	if (isset($authorization) && 0 === stripos($authorization, 'basic ')) {
+            $exploded = explode(':', base64_decode(substr($authorization, 6)), 2);
             if (2 == \count($exploded)) {
                 list($un, $pw) = $exploded;
             }
