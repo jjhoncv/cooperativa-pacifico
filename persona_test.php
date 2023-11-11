@@ -797,7 +797,7 @@ class Persona extends DB{
         $fecha = date('"Y/m/d H:i:s"');
 		
 		for ($i = 1; $i <= 6; $i++) {
-			$orden_tmp = rand(1, 1000);
+			$orden_tmp = rand_int(1, 1000);
 			$query = $this->connect()->query("INSERT INTO Doble (Id, Cod_session, Numero, Fecha, Abierto, Orden) VALUES (NULL,'$session','$i',$fecha,'0','$orden_tmp')");
 		}
 		

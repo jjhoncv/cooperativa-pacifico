@@ -17,7 +17,7 @@ class Juego extends DB{
 		$query->execute();
 		
 		$fila = $query->fetch(PDO::FETCH_ASSOC);
-		$insertar = rand(1, $num);
+		$insertar = rand_int(1, $num);
 		
 		if(intval($fila['total'])!=0) 
 		{
@@ -44,7 +44,7 @@ class Juego extends DB{
         			$bucle = false;
         		}
         		else{
-        		   $insertar = rand(1, $num); 
+        		   $insertar = rand_int(1, $num); 
         		}
             }
 		}

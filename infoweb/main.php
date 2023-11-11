@@ -39,7 +39,7 @@ if($func==1){
 			$msg = "El correo ingresado ya existe, intenta en olvido de Clave";
 		}
 		else{
-			$token = rand(100000,999999); 
+			$token = rand_int(100000,999999); 
 			$new->nuevo_usuario_db_api($correo1, $token);
 			$new->sendPost_email_pacinet_bloqueo($correo1, $token);
 			$msg = "Se ha enviado un correo para que continues el proceso";
@@ -69,7 +69,7 @@ if($func==2){
 		$token = $obj_datos->token;
 		
 		if($respuesta=="ok"){
-			$token = rand(100000,999999); 
+			$token = rand_int(100000,999999); 
 			$new->sendPost_email_pacinet_olvido($correo1, $token);
 			$new->update_password_db_api($correo1, $token);
 			$msg = "Se ha enviado un correo para que continues el proceso";

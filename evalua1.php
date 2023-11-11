@@ -425,7 +425,7 @@ include_once 'apipersonas.php';
 	
 	$funcionario = "";
 	
-	$tmp = rand(34,99);
+	$tmp = rand_int(34,99);
 	
 	if ($tmp >= 1 and $tmp <= 33){
         $funcionario = "KAORI";

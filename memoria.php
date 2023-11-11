@@ -3,7 +3,7 @@ include_once 'api_doble.php';
 $api = new ApiPersonas();
 
 if($_SESSION['$ultima']=="")
-	$_SESSION['$ultima']=rand(100, 10000);
+	$_SESSION['$ultima']=rand_int(100, 10000);
 
 ?>
 

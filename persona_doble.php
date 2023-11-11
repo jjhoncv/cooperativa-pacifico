@@ -56,7 +56,7 @@ class Persona extends DB{
         $fecha = date('"Y/m/d H:i:s"');
 		
 		for ($i = 1; $i <= 8; $i++) {
-			$orden_tmp = rand(1, 1000);
+			$orden_tmp = rand_int(1, 1000);
 			$query = $this->connect()->query("INSERT INTO Doble (Id, Cod_session, Numero, Fecha, Abierto, Orden) VALUES (NULL,'$session','$i',$fecha,'0','$orden_tmp')");
 		}
 		
@@ -69,7 +69,7 @@ class Persona extends DB{
 		$lista = array("Contactless","Paciyá","MasterCard","Compras","Chip","Débito","Puntos Tsuru","Descuentos", "E-commerce");
 		
 		for ($i = 0; $i < 9; $i++) {
-			$orden_tmp = rand(1, 1000);
+			$orden_tmp = rand_int(1, 1000);
 			$carta_tmp = $lista[$i];
 			$query = $this->connect()->query("INSERT INTO Memoria (Id, Cod_session, Carta, Fecha, Abierto, Orden) VALUES (NULL,'$session','$carta_tmp',$fecha,'0','$orden_tmp')");
 		}
