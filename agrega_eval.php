@@ -68,63 +68,63 @@ include_once 'apipersonas.php';
     
     for ($i = 0; $i <= 23; $i++) {
         
-        echo eval ("\$Ano_" . $i. "= \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->ano;");
-        echo eval ("\$Mes_" . $i. "= \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->mes;");
+        echo eval(htmlspecialchars("\$Ano_" . $i. "= \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->ano;"));
+        echo eval(htmlspecialchars("\$Mes_" . $i. "= \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->mes;"));
         
         for ($j = 0; $j <= 9; $j++){
             
-            echo eval ("\$Deuda_" . $i . "_" . $j . "= (isset(\$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->SalDeu)) ? \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->SalDeu : 0;");
-            echo eval ("\$calificacion_" . $i . "_" . $j . " = (isset(\$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->Cal)) ? \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->Cal : '';");
+            echo eval(htmlspecialchars("\$Deuda_" . $i . "_" . $j . "= (isset(\$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->SalDeu)) ? \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->SalDeu : 0;"));
+            echo eval(htmlspecialchars("\$calificacion_" . $i . "_" . $j . " = (isset(\$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->Cal)) ? \$obj->soafulloutput->ConRap->DetSBSMicr[" . $i . "]->Detalle[" . $j . "]->Cal : '';"));
         }
     }
     
     for ($i = 0; $i <= 23; $i++) {
     
-           echo eval ("\$calificacion_" . $i . "=\$calificacion_" . $i . "_0 . \$calificacion_" . $i . "_1 . \$calificacion_" .$i. "_2 . \$calificacion_" .$i. "_3 . \$calificacion_" .$i. "_4 . \$calificacion_" .$i. "_5 . \$calificacion_" .$i. "_6 . \$calificacion_" .$i. "_7 . \$calificacion_" .$i. "_8 . \$calificacion_" .$i. "_9;");
-           echo eval ("\$Deuda_" . $i . "=\$Deuda_" . $i . "_0 + \$Deuda_" . $i . "_1 + \$Deuda_" .$i. "_2 + \$Deuda_" .$i. "_3 + \$Deuda_" .$i. "_4 + \$Deuda_" .$i. "_5 + \$Deuda_" .$i. "_6 + \$Deuda_" .$i. "_7 + \$Deuda_" .$i. "_8 + \$Deuda_" .$i. "_9;");
+           echo eval(htmlspecialchars("\$calificacion_" . $i . "=\$calificacion_" . $i . "_0 . \$calificacion_" . $i . "_1 . \$calificacion_" .$i. "_2 . \$calificacion_" .$i. "_3 . \$calificacion_" .$i. "_4 . \$calificacion_" .$i. "_5 . \$calificacion_" .$i. "_6 . \$calificacion_" .$i. "_7 . \$calificacion_" .$i. "_8 . \$calificacion_" .$i. "_9;"));
+           echo eval(htmlspecialchars("\$Deuda_" . $i . "=\$Deuda_" . $i . "_0 + \$Deuda_" . $i . "_1 + \$Deuda_" .$i. "_2 + \$Deuda_" .$i. "_3 + \$Deuda_" .$i. "_4 + \$Deuda_" .$i. "_5 + \$Deuda_" .$i. "_6 + \$Deuda_" .$i. "_7 + \$Deuda_" .$i. "_8 + \$Deuda_" .$i. "_9;"));
     }
 	
 	for ($i = 0; $i <= 23; $i++) {
-		echo eval("\$entidades_" . $i . " = (strlen(\$calificacion_" . $i . ")/3);");
+		echo eval(htmlspecialchars("\$entidades_" . $i . " = (strlen(\$calificacion_" . $i . ")/3);"));
 	}
 	
 	for ($i = 0; $i <= 11; $i++) { // Primer 1 año (12 meses)
 	
 			$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 			
-			echo eval("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');");
-			echo eval("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');");
-			echo eval("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');");
-			echo eval("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');");
-			echo eval("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');");
+			echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');"));
+			echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');"));
+			echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');"));
+			echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');"));
+			echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');"));
 			
 			if($pos1!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='PER';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='PER';"));
 				$cal = "F";
 				$score = 0 + $score;
 			}
 			if($pos2!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DEF';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DEF';"));
 				$cal = "F";
 				$score = 4.95 + $score;
 			}
 			if($pos3!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DUD';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DUD';"));
 				$cal = "F";
 				$score = 9.91 + $score;
 			}
 			if($pos4!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='CPP';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='CPP';"));
 				$cal = "F";
 				$score = 19.83 + $score;
 			}
 			if($pos5!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='NOR';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='NOR';"));
 				$cal = "F";
 				$score = 24.79 + $score;
 			}
 			if($cal=="V"){
-				echo eval("\$calificacion_" . $i . "='';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='';"));
 				$cal = "F";
 				$score = 14.87 + $score;
 			}
@@ -135,39 +135,39 @@ include_once 'apipersonas.php';
 	
 			$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 			
-			echo eval("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');");
-			echo eval("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');");
-			echo eval("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');");
-			echo eval("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');");
-			echo eval("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');");
+			echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');"));
+			echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');"));
+			echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');"));
+			echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');"));
+			echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');"));
 			
 			if($pos1!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='PER';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='PER';"));
 				$cal = "F";
 				$score = 0 + $score;
 			}
 			if($pos2!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DEF';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DEF';"));
 				$cal = "F";
 				$score = 2.13 + $score;
 			}
 			if($pos3!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DUD';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DUD';"));
 				$cal = "F";
 				$score = 4.25 + $score;
 			}
 			if($pos4!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='CPP';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='CPP';"));
 				$cal = "F";
 				$score = 8.5 + $score;
 			}
 			if($pos5!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='NOR';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='NOR';"));
 				$cal = "F";
 				$score = 10.63 + $score;
 			}
 			if($cal=="V"){
-				echo eval("\$calificacion_" . $i . "='';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='';"));
 				$cal = "F";
 				$score = 6.38 + $score;
 			}

@@ -60,46 +60,46 @@ $obj = json_decode($resultado);
     }
 	
 	for ($i = 0; $i <= 23; $i++) {
-		echo eval("\$entidades_" . $i . " = (strlen(\$calificacion_" . $i . ")/3);");
+		echo eval(htmlspecialchars("\$entidades_" . $i . " = (strlen(\$calificacion_" . $i . ")/3);"));
 	}
 	
 	for ($i = 0; $i <= 11; $i++) { // Primer 1 año (12 meses)
 	
 			$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 			
-			echo eval("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');");
-			echo eval("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');");
-			echo eval("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');");
-			echo eval("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');");
-			echo eval("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');");
+			echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');"));
+			echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');"));
+			echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');"));
+			echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');"));
+			echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');"));
 			
 			if($pos1!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-dark btn-xs\">PER</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-dark btn-xs\">PER</button>';"));
 				$cal = "F";
 				$score = 0 + $score;
 			}
 			if($pos2!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DEF</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DEF</button>';"));
 				$cal = "F";
 				$score = 4.95 + $score;
 			}
 			if($pos3!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DUD</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DUD</button>';"));
 				$cal = "F";
 				$score = 9.91 + $score;
 			}
 			if($pos4!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-warning btn-xs\">CPP</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-warning btn-xs\">CPP</button>';"));
 				$cal = "F";
 				$score = 19.83 + $score;
 			}
 			if($pos5!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-success btn-xs\">NOR</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-success btn-xs\">NOR</button>';"));
 				$cal = "F";
 				$score = 24.79 + $score;
 			}
 			if($cal=="V"){
-				echo eval("\$calificacion_" . $i . "='';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='';"));
 				$cal = "F";
 				$score = 14.87 + $score;
 			}
@@ -110,39 +110,39 @@ $obj = json_decode($resultado);
 	
 			$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 			
-			echo eval("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');");
-			echo eval("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');");
-			echo eval("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');");
-			echo eval("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');");
-			echo eval("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');");
+			echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');"));
+			echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');"));
+			echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');"));
+			echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');"));
+			echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');"));
 			
 			if($pos1!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-dark btn-xs\">PER</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-dark btn-xs\">PER</button>';"));
 				$cal = "F";
 				$score = 0 + $score;
 			}
 			if($pos2!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DEF</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DEF</button>';"));
 				$cal = "F";
 				$score = 2.13 + $score;
 			}
 			if($pos3!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DUD</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DUD</button>';"));
 				$cal = "F";
 				$score = 4.25 + $score;
 			}
 			if($pos4!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-warning btn-xs\">CPP</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-warning btn-xs\">CPP</button>';"));
 				$cal = "F";
 				$score = 8.5 + $score;
 			}
 			if($pos5!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='<button type=button class=\"btn btn-success btn-xs\">NOR</button>';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='<button type=button class=\"btn btn-success btn-xs\">NOR</button>';"));
 				$cal = "F";
 				$score = 10.63 + $score;
 			}
 			if($cal=="V"){
-				echo eval("\$calificacion_" . $i . "='';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='';"));
 				$cal = "F";
 				$score = 6.38 + $score;
 			}

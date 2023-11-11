@@ -53,41 +53,41 @@ include_once 'apipersonas.php';
     }
 	
 	for ($i = 0; $i <= 23; $i++) {
-		echo eval("\$entidades_" . $i . " = (strlen(\$calificacion_" . $i . ")/3);");
+		echo eval(htmlspecialchars("\$entidades_" . $i . " = (strlen(\$calificacion_" . $i . ")/3);"));
 	}
 	
 	for ($i = 0; $i <= 11; $i++) { // Primer 1 año (12 meses)
 	
 			$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 			
-			echo eval("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');");
-			echo eval("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');");
-			echo eval("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');");
-			echo eval("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');");
-			echo eval("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');");
+			echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');"));
+			echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');"));
+			echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');"));
+			echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');"));
+			echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');"));
 			
 			if($pos1!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='PER';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='PER';"));
 				$cal = "F";
 			}
 			if($pos2!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DEF';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DEF';"));
 				$cal = "F";
 			}
 			if($pos3!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DUD';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DUD';"));
 				$cal = "F";
 			}
 			if($pos4!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='CPP';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='CPP';"));
 				$cal = "F";
 			}
 			if($pos5!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='NOR';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='NOR';"));
 				$cal = "F";
 			}
 			if($cal=="V"){
-				echo eval("\$calificacion_" . $i . "='SCA';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='SCA';"));
 				$cal = "F";
 			}
 			
@@ -97,34 +97,34 @@ include_once 'apipersonas.php';
 	
 			$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 			
-			echo eval("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');");
-			echo eval("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');");
-			echo eval("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');");
-			echo eval("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');");
-			echo eval("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');");
+			echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacion_" . $i . ",'PER');"));
+			echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacion_" . $i . ",'DEF');"));
+			echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacion_" . $i . ",'DUD');"));
+			echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacion_" . $i . ",'CPP');"));
+			echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacion_" . $i . ",'NOR');"));
 			
 			if($pos1!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='PER';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='PER';"));
 				$cal = "F";
 			}
 			if($pos2!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DEF';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DEF';"));
 				$cal = "F";
 			}
 			if($pos3!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='DUD';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='DUD';"));
 				$cal = "F";
 			}
 			if($pos4!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='CPP';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='CPP';"));
 				$cal = "F";
 			}
 			if($pos5!==FALSE and $cal=="V"){
-				echo eval("\$calificacion_" . $i . "='NOR';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='NOR';"));
 				$cal = "F";
 			}
 			if($cal=="V"){
-				echo eval("\$calificacion_" . $i . "='SCA';");
+				echo eval(htmlspecialchars("\$calificacion_" . $i . "='SCA';"));
 				$cal = "F";
 			}
 			

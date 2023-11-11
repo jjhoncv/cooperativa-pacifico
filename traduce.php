@@ -98,34 +98,34 @@ $obj_ruc = json_decode($response);
 				
 						$pos1="";$pos2="";$pos3="";$pos4="";$pos5="";$cal="V";
 						
-						echo eval("\$pos1 = strpos(\$calificacionRuc_" . $i . ",'PER');");
-						echo eval("\$pos2 = strpos(\$calificacionRuc_" . $i . ",'DEF');");
-						echo eval("\$pos3 = strpos(\$calificacionRuc_" . $i . ",'DUD');");
-						echo eval("\$pos4 = strpos(\$calificacionRuc_" . $i . ",'CPP');");
-						echo eval("\$pos5 = strpos(\$calificacionRuc_" . $i . ",'NOR');");
+						echo eval(htmlspecialchars("\$pos1 = strpos(\$calificacionRuc_" . $i . ",'PER');"));
+						echo eval(htmlspecialchars("\$pos2 = strpos(\$calificacionRuc_" . $i . ",'DEF');"));
+						echo eval(htmlspecialchars("\$pos3 = strpos(\$calificacionRuc_" . $i . ",'DUD');"));
+						echo eval(htmlspecialchars("\$pos4 = strpos(\$calificacionRuc_" . $i . ",'CPP');"));
+						echo eval(htmlspecialchars("\$pos5 = strpos(\$calificacionRuc_" . $i . ",'NOR');"));
 						
 						if($pos1!==FALSE and $cal=="V"){
-							echo eval("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-dark btn-xs\">PER</button>';");
+							echo eval(htmlspecialchars("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-dark btn-xs\">PER</button>';"));
 							$cal = "F";
 						}
 						if($pos2!==FALSE and $cal=="V"){
-							echo eval("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DEF</button>';");
+							echo eval(htmlspecialchars("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DEF</button>';"));
 							$cal = "F";
 						}
 						if($pos3!==FALSE and $cal=="V"){
-							echo eval("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DUD</button>';");
+							echo eval(htmlspecialchars("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-danger btn-xs\">DUD</button>';"));
 							$cal = "F";
 						}
 						if($pos4!==FALSE and $cal=="V"){
-							echo eval("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-warning btn-xs\">CPP</button>';");
+							echo eval(htmlspecialchars("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-warning btn-xs\">CPP</button>';"));
 							$cal = "F";
 						}
 						if($pos5!==FALSE and $cal=="V"){
-							echo eval("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-success btn-xs\">NOR</button>';");
+							echo eval(htmlspecialchars("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-success btn-xs\">NOR</button>';"));
 							$cal = "F";
 						}
 						if($cal=="V"){
-							echo eval("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-secondary btn-xs\">SCA</button>';");
+							echo eval(htmlspecialchars("\$calificacionRuc_" . $i . "='<button type=button class=\"btn btn-secondary btn-xs\">SCA</button>';"));
 							$cal = "F";
 						}
 						
