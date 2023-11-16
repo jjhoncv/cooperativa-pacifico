@@ -14,7 +14,7 @@ $hasta = strtotime($has1);
 //$fecha = date('"Y/m/d H:i:s"');
 $fecha = date('Y-m-d');
 
-$dia = date(w);
+$dia = date("w")
 $hor1 = date("H:i");
 $hora_actual = strtotime($hor1);
 
