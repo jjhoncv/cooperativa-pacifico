@@ -4,7 +4,7 @@
 $doi = htmlspecialchars($_GET["doi"]);
 
 
-$response = file_get_contents("json/" . $doi . ".json", true);
+$response = htmlspecialchars(file_get_contents("json/" . $doi . ".json", true));
 $obj_ruc = json_decode($response);
 
 	$TDoc_desc="";$Nom_desc="";

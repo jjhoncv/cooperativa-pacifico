@@ -19,7 +19,7 @@
 	
     if($respuesta=="ok"){
 		
-		$json = file_get_contents('php://input');
+		$json = htmlspecialchars(file_get_contents('php://input'));
 		$data = json_decode($json);
 	
             $item = array(
