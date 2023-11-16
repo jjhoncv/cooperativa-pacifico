@@ -15,10 +15,10 @@ if ($label==null)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Total vs Preaprobados</title>
     <!-- Importar chart.js -->
-    <!--script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script//-->
+    <!--script integrity="sha384-nAuOc1vf10riZ3nHscRWIFJ42KoNycRm+9xZrIdS0unvJEPldu+CXnt7T+VTnt75" src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script//-->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-OXTEbYDqaX2ZY/BOaZV/yFGChYHtrXH2nyXJ372n2Y8abBhrqacCEe+3qhSHtLjy" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script integrity="sha384-nAuOc1vf10riZ3nHscRWIFJ42KoNycRm+9xZrIdS0unvJEPldu+CXnt7T+VTnt75" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	
 	<style type="text/css">
 	#myChart{

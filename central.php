@@ -23,7 +23,7 @@ if (isset($_SESSION["login"]))
 <script integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PRSLE2J6GY"></script>
+<script integrity="sha384-Ro3HaVMaT0Ejv9hsKgBgm04CX8joE5uP3hn7M2s1acErSJx/YyioI7fZ4/zYqfbQ" async src="https://www.googletagmanager.com/gtag/js?id=G-PRSLE2J6GY"></script>
 <script>
 function refrescar(){
     setInterval("location.reload()",1800000);
