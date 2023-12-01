@@ -5,7 +5,7 @@ $api = new Persona();
 // subir archivo
 $directorio = 'archivos/';
 $sanatize_archivo = htmlspecialchars($_FILES['subir_archivo']);
-$subir_archivo = $directorio.basename($sanatize_archivo['name']);
+$subir_archivo = $directorio.basename(htmlspecialchars($sanatize_archivo['name']));
 $mensaje ="";
 
 
@@ -15,7 +15,7 @@ $dni = htmlspecialchars($_POST['dni']);
 
 if($subir_archivo!="archivos/")
 {
-    if (move_uploaded_file($sanatize_archivo['tmp_name'], $subir_archivo)) {
+    if (move_uploaded_file(htmlspecialchars($sanatize_archivo['tmp_name']), $subir_archivo)) {
         
             $mensaje = "<p>Archivo subido [" . $nom_arch . "] [" . $dni . "] </p><button type='button' class='btn btn-warning' btn-xs' onclick='ir()'>Volver</button>";
 			    $api ->nuevoDocumento($dni, $nom_arch);
